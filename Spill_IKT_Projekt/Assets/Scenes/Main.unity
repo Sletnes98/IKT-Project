@@ -541,8 +541,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   myRigidbody: {fileID: 1757345602}
-  oppKraft: 5
-  maksOppHastighet: 6
+  oppKraft: 3
+  maksOppHastighet: 5
 --- !u!61 &1757345604
 BoxCollider2D:
   m_ObjectHideFlags: 0
