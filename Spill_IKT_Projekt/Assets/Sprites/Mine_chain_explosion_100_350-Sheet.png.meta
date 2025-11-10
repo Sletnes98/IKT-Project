@@ -1,0 +1,2197 @@
+fileFormatVersion: 2
+guid: ec2cf15acbe9d4d25928fee2c33e6dea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6346545567461163458
+    second: Mine_chain_explosion_100_350-Sheet_0
+  - first:
+      213: -5634978013930913345
+    second: Mine_chain_explosion_100_350-Sheet_1
+  - first:
+      213: -4581390542213637034
+    second: Mine_chain_explosion_100_350-Sheet_2
+  - first:
+      213: -6266987931080805136
+    second: Mine_chain_explosion_100_350-Sheet_3
+  - first:
+      213: -6817158898508286049
+    second: Mine_chain_explosion_100_350-Sheet_4
+  - first:
+      213: 8651912991113273496
+    second: Mine_chain_explosion_100_350-Sheet_5
+  - first:
+      213: -991755818567201062
+    second: Mine_chain_explosion_100_350-Sheet_6
+  - first:
+      213: -1035578059464520067
+    second: Mine_chain_explosion_100_350-Sheet_7
+  - first:
+      213: 4001373270874832500
+    second: Mine_chain_explosion_100_350-Sheet_8
+  - first:
+      213: -6233540899062170456
+    second: Mine_chain_explosion_100_350-Sheet_9
+  - first:
+      213: -8820830989065278842
+    second: Mine_chain_explosion_100_350-Sheet_10
+  - first:
+      213: -8880963683654813200
+    second: Mine_chain_explosion_100_350-Sheet_11
+  - first:
+      213: -991075887867648019
+    second: Mine_chain_explosion_100_350-Sheet_12
+  - first:
+      213: -6732312339110893610
+    second: Mine_chain_explosion_100_350-Sheet_13
+  - first:
+      213: -89131216417599847
+    second: Mine_chain_explosion_100_350-Sheet_14
+  - first:
+      213: 1383803825358148447
+    second: Mine_chain_explosion_100_350-Sheet_15
+  - first:
+      213: 7422994570225863781
+    second: Mine_chain_explosion_100_350-Sheet_16
+  - first:
+      213: -5920528243900888229
+    second: Mine_chain_explosion_100_350-Sheet_17
+  - first:
+      213: 1307883723460187977
+    second: Mine_chain_explosion_100_350-Sheet_18
+  - first:
+      213: 583253282275186528
+    second: Mine_chain_explosion_100_350-Sheet_19
+  - first:
+      213: -8115664126274757623
+    second: Mine_chain_explosion_100_350-Sheet_20
+  - first:
+      213: 5981110572964491713
+    second: Mine_chain_explosion_100_350-Sheet_21
+  - first:
+      213: 3859842930583025582
+    second: Mine_chain_explosion_100_350-Sheet_22
+  - first:
+      213: 2185753559618224129
+    second: Mine_chain_explosion_100_350-Sheet_23
+  - first:
+      213: -4291809359074304099
+    second: Mine_chain_explosion_100_350-Sheet_24
+  - first:
+      213: 7494453694373032787
+    second: Mine_chain_explosion_100_350-Sheet_25
+  - first:
+      213: -6582350272874894546
+    second: Mine_chain_explosion_100_350-Sheet_26
+  - first:
+      213: 1334549791827296304
+    second: Mine_chain_explosion_100_350-Sheet_27
+  - first:
+      213: 245222959521577001
+    second: Mine_chain_explosion_100_350-Sheet_28
+  - first:
+      213: 7567806623866541752
+    second: Mine_chain_explosion_100_350-Sheet_29
+  - first:
+      213: -6536205588611409142
+    second: Mine_chain_explosion_100_350-Sheet_30
+  - first:
+      213: -5707171938493771470
+    second: Mine_chain_explosion_100_350-Sheet_31
+  - first:
+      213: -3686136820438996239
+    second: Mine_chain_explosion_100_350-Sheet_32
+  - first:
+      213: 7184636605880691032
+    second: Mine_chain_explosion_100_350-Sheet_33
+  - first:
+      213: 870639671318637473
+    second: Mine_chain_explosion_100_350-Sheet_34
+  - first:
+      213: 3713073580318803155
+    second: Mine_chain_explosion_100_350-Sheet_35
+  - first:
+      213: -1453332621561452834
+    second: Mine_chain_explosion_100_350-Sheet_36
+  - first:
+      213: 6210484409442018093
+    second: Mine_chain_explosion_100_350-Sheet_37
+  - first:
+      213: -6000390523858050308
+    second: Mine_chain_explosion_100_350-Sheet_38
+  - first:
+      213: 8264317235670676386
+    second: Mine_chain_explosion_100_350-Sheet_39
+  - first:
+      213: 1434707681790826544
+    second: Mine_chain_explosion_100_350-Sheet_40
+  - first:
+      213: -8109404186751410445
+    second: Mine_chain_explosion_100_350-Sheet_41
+  - first:
+      213: 2177768268409656079
+    second: Mine_chain_explosion_100_350-Sheet_42
+  - first:
+      213: 4566898070189311612
+    second: Mine_chain_explosion_100_350-Sheet_43
+  - first:
+      213: -8836862649465775140
+    second: Mine_chain_explosion_100_350-Sheet_44
+  - first:
+      213: -4558511577291901535
+    second: Mine_chain_explosion_100_350-Sheet_45
+  - first:
+      213: 7584275914640127775
+    second: Mine_chain_explosion_100_350-Sheet_46
+  - first:
+      213: 5155165974776620142
+    second: Mine_chain_explosion_100_350-Sheet_47
+  - first:
+      213: -6210569437160582667
+    second: Mine_chain_explosion_100_350-Sheet_48
+  - first:
+      213: 5142846441668080635
+    second: Mine_chain_explosion_100_350-Sheet_49
+  - first:
+      213: -4061037195832845003
+    second: Mine_chain_explosion_100_350-Sheet_50
+  - first:
+      213: 3305998295830782348
+    second: Mine_chain_explosion_100_350-Sheet_51
+  - first:
+      213: 441751961992212660
+    second: Mine_chain_explosion_100_350-Sheet_52
+  - first:
+      213: 384069863584644330
+    second: Mine_chain_explosion_100_350-Sheet_53
+  - first:
+      213: 175738472611843300
+    second: Mine_chain_explosion_100_350-Sheet_54
+  - first:
+      213: -2279553157625453694
+    second: Mine_chain_explosion_100_350-Sheet_55
+  - first:
+      213: -5773858568458124511
+    second: Mine_chain_explosion_100_350-Sheet_56
+  - first:
+      213: -8975143950141248137
+    second: Mine_chain_explosion_100_350-Sheet_57
+  - first:
+      213: -5815067011329664420
+    second: Mine_chain_explosion_100_350-Sheet_58
+  - first:
+      213: 4036740849582295007
+    second: Mine_chain_explosion_100_350-Sheet_59
+  - first:
+      213: -800393444163122415
+    second: Mine_chain_explosion_100_350-Sheet_60
+  - first:
+      213: -863451357383957448
+    second: Mine_chain_explosion_100_350-Sheet_61
+  - first:
+      213: 1072468967609129267
+    second: Mine_chain_explosion_100_350-Sheet_62
+  - first:
+      213: 2311680756696166053
+    second: Mine_chain_explosion_100_350-Sheet_63
+  - first:
+      213: -8582692950594868208
+    second: Mine_chain_explosion_100_350-Sheet_64
+  - first:
+      213: 1639809873285538328
+    second: Mine_chain_explosion_100_350-Sheet_65
+  - first:
+      213: 3622663675767101454
+    second: Mine_chain_explosion_100_350-Sheet_66
+  - first:
+      213: 8005900800665169914
+    second: Mine_chain_explosion_100_350-Sheet_67
+  - first:
+      213: 6987896368940577933
+    second: Mine_chain_explosion_100_350-Sheet_68
+  - first:
+      213: -4784719905578882945
+    second: Mine_chain_explosion_100_350-Sheet_69
+  - first:
+      213: -4923267848689875368
+    second: Mine_chain_explosion_100_350-Sheet_70
+  - first:
+      213: -773154393907075569
+    second: Mine_chain_explosion_100_350-Sheet_71
+  - first:
+      213: -6461379268832265155
+    second: Mine_chain_explosion_100_350-Sheet_72
+  - first:
+      213: 1396476555171002289
+    second: Mine_chain_explosion_100_350-Sheet_73
+  - first:
+      213: -5438564878481433123
+    second: Mine_chain_explosion_100_350-Sheet_74
+  - first:
+      213: 3344311742350392749
+    second: Mine_chain_explosion_100_350-Sheet_75
+  - first:
+      213: -7918673143767738105
+    second: Mine_chain_explosion_100_350-Sheet_76
+  - first:
+      213: -6388965544240299487
+    second: Mine_chain_explosion_100_350-Sheet_77
+  - first:
+      213: -4851005763905960271
+    second: Mine_chain_explosion_100_350-Sheet_78
+  - first:
+      213: 8840128150903288423
+    second: Mine_chain_explosion_100_350-Sheet_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 32
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3eb5ac8e6a8ce7a0800000000000000
+      internalID: -6346545567461163458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 33
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1038a0a598cc1b0800000000000000
+      internalID: -5634978013930913345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 39
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c950a3391ab60c0800000000000000
+      internalID: -4581390542213637034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 62
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4b44c3eaf2709a0800000000000000
+      internalID: -6266987931080805136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 285
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f973505c9169461a0800000000000000
+      internalID: -6817158898508286049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 305
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890e4ee8605c11870800000000000000
+      internalID: 8651912991113273496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 282
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade006a66539c32f0800000000000000
+      internalID: -991755818567201062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 271
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ecd6cdd33e0a1f0800000000000000
+      internalID: -1035578059464520067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 296
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ebc382acbb78730800000000000000
+      internalID: 4001373270874832500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 313
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acb78a34930e79a0800000000000000
+      internalID: -6233540899062170456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 307
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aa10143fc169580800000000000000
+      internalID: -8820830989065278842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 292
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f93c94459a70c480800000000000000
+      internalID: -8880963683654813200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 301
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7a13e1bbdfe32f0800000000000000
+      internalID: -991075887867648019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 301
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7e05ec8950292a0800000000000000
+      internalID: -6732312339110893610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 295
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ec70381a753cef0800000000000000
+      internalID: -89131216417599847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 315
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f539c495f32443310800000000000000
+      internalID: 1383803825358148447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 308
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c47ff9b36c30760800000000000000
+      internalID: 7422994570225863781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 306
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bce933eee06dda0800000000000000
+      internalID: -5920528243900888229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 300
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9471c582159862210800000000000000
+      internalID: 1307883723460187977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 295
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067d71025c1281800800000000000000
+      internalID: 583253282275186528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 320
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c130dc97e5f5f80800000000000000
+      internalID: -8115664126274757623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 313
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1b1e7706c210350800000000000000
+      internalID: 5981110572964491713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 326
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7343ee1bae09530800000000000000
+      internalID: 3859842930583025582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 307
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1000797284b555e10800000000000000
+      internalID: 2185753559618224129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 319
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fddac702e6074c0800000000000000
+      internalID: -4291809359074304099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 302
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353f7be7de5a10860800000000000000
+      internalID: 7494453694373032787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 300
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ba8163d4bc6a4a0800000000000000
+      internalID: -6582350272874894546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 295
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03000f407f5458210800000000000000
+      internalID: 1334549791827296304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 311
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928bd018bf4376300800000000000000
+      internalID: 245222959521577001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 315
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6d9684700460960800000000000000
+      internalID: 7567806623866541752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 273
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bd4efb5abba45a0800000000000000
+      internalID: -6536205588611409142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 332
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231500e1c5d0cc0b0800000000000000
+      internalID: -5707171938493771470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 324
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faee30871638dcc0800000000000000
+      internalID: -3686136820438996239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 310
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85969cd5de4f4b360800000000000000
+      internalID: 7184636605880691032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 327
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab6f401b22251c00800000000000000
+      internalID: 870639671318637473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 323
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d44ac3afbc778330800000000000000
+      internalID: 3713073580318803155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 312
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6a7574ea9b4dbe0800000000000000
+      internalID: -1453332621561452834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 266
+        width: 123
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23a4e37aa2103650800000000000000
+      internalID: 6210484409442018093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 286
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf222d72c945abca0800000000000000
+      internalID: -6000390523858050308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 276
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3f9475db0c0b270800000000000000
+      internalID: 8264317235670676386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 296
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0389aa1090b19e310800000000000000
+      internalID: 1434707681790826544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 283
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fedd9c8bdb957f80800000000000000
+      internalID: -8109404186751410445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 300
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03dca9a3bcf83e10800000000000000
+      internalID: 2177768268409656079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 298
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c760d0f2991e06f30800000000000000
+      internalID: 4566898070189311612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 291
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbdca17d382d5580800000000000000
+      internalID: -8836862649465775140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 285
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5b20b5fd9ecb0c0800000000000000
+      internalID: -4558511577291901535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 279
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17fcaad2c2c04960800000000000000
+      internalID: 7584275914640127775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 275
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64adbc0424da8740800000000000000
+      internalID: 5155165974776620142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 275
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1552d7000afc9a0800000000000000
+      internalID: -6210569437160582667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 290
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3f10a379f0f5740800000000000000
+      internalID: 5142846441668080635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 276
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d1cbacf2c44a7c0800000000000000
+      internalID: -4061037195832845003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 272
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c816a032fe341ed20800000000000000
+      internalID: 3305998295830782348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 273
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0b065a11b612600800000000000000
+      internalID: 441751961992212660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 286
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec35eb818d745500800000000000000
+      internalID: 384069863584644330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 290
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec0661b539507200800000000000000
+      internalID: 175738472611843300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 282
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2836d111b766d50e0800000000000000
+      internalID: -2279553157625453694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 278
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12345b329322fdfa0800000000000000
+      internalID: -5773858568458124511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 274
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77da5d33122e17380800000000000000
+      internalID: -8975143950141248137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 289
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a5a9cdc5bbc4fa0800000000000000
+      internalID: -5815067011329664420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 274
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd749a54a62650830800000000000000
+      internalID: 4036740849582295007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 286
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b0b18376e64e4f0800000000000000
+      internalID: -800393444163122415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 8
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834ec42b0976404f0800000000000000
+      internalID: -863451357383957448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 272
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339d8f608dc22ee00800000000000000
+      internalID: 1072468967609129267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 278
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae2bf0866db41020800000000000000
+      internalID: 2311680756696166053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 275
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c2b870c3624e880800000000000000
+      internalID: -8582692950594868208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 271
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812ec544466c1c610800000000000000
+      internalID: 1639809873285538328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 277
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e081fce5b69464230800000000000000
+      internalID: 3622663675767101454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 279
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affa9a27c5caa1f60800000000000000
+      internalID: 8005900800665169914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 273
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84f1fd59bef9f060800000000000000
+      internalID: 6987896368940577933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 271
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78ea3ea892499db0800000000000000
+      internalID: -4784719905578882945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 8
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8560db8e9f90dabb0800000000000000
+      internalID: -4923267848689875368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 8
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06e2a2dc243545f0800000000000000
+      internalID: -773154393907075569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 271
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cfd22f9c19456a0800000000000000
+      internalID: -6461379268832265155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 269
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7f0203708416310800000000000000
+      internalID: 1396476555171002289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 0
+        width: 8
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddd23ace065684b0800000000000000
+      internalID: -5438564878481433123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 8
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad76fc8fc1696e20800000000000000
+      internalID: 3344311742350392749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 0
+        width: 8
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7095c4d0bb83b1290800000000000000
+      internalID: -7918673143767738105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 0
+        width: 8
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122c85d00b5d557a0800000000000000
+      internalID: -6388965544240299487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0
+        width: 8
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6430f95f3cdacb0800000000000000
+      internalID: -4851005763905960271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_chain_explosion_100_350-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 0
+        width: 8
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762758b57b17eaa70800000000000000
+      internalID: 8840128150903288423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mine_chain_explosion_100_350-Sheet_0: -6346545567461163458
+      Mine_chain_explosion_100_350-Sheet_1: -5634978013930913345
+      Mine_chain_explosion_100_350-Sheet_10: -8820830989065278842
+      Mine_chain_explosion_100_350-Sheet_11: -8880963683654813200
+      Mine_chain_explosion_100_350-Sheet_12: -991075887867648019
+      Mine_chain_explosion_100_350-Sheet_13: -6732312339110893610
+      Mine_chain_explosion_100_350-Sheet_14: -89131216417599847
+      Mine_chain_explosion_100_350-Sheet_15: 1383803825358148447
+      Mine_chain_explosion_100_350-Sheet_16: 7422994570225863781
+      Mine_chain_explosion_100_350-Sheet_17: -5920528243900888229
+      Mine_chain_explosion_100_350-Sheet_18: 1307883723460187977
+      Mine_chain_explosion_100_350-Sheet_19: 583253282275186528
+      Mine_chain_explosion_100_350-Sheet_2: -4581390542213637034
+      Mine_chain_explosion_100_350-Sheet_20: -8115664126274757623
+      Mine_chain_explosion_100_350-Sheet_21: 5981110572964491713
+      Mine_chain_explosion_100_350-Sheet_22: 3859842930583025582
+      Mine_chain_explosion_100_350-Sheet_23: 2185753559618224129
+      Mine_chain_explosion_100_350-Sheet_24: -4291809359074304099
+      Mine_chain_explosion_100_350-Sheet_25: 7494453694373032787
+      Mine_chain_explosion_100_350-Sheet_26: -6582350272874894546
+      Mine_chain_explosion_100_350-Sheet_27: 1334549791827296304
+      Mine_chain_explosion_100_350-Sheet_28: 245222959521577001
+      Mine_chain_explosion_100_350-Sheet_29: 7567806623866541752
+      Mine_chain_explosion_100_350-Sheet_3: -6266987931080805136
+      Mine_chain_explosion_100_350-Sheet_30: -6536205588611409142
+      Mine_chain_explosion_100_350-Sheet_31: -5707171938493771470
+      Mine_chain_explosion_100_350-Sheet_32: -3686136820438996239
+      Mine_chain_explosion_100_350-Sheet_33: 7184636605880691032
+      Mine_chain_explosion_100_350-Sheet_34: 870639671318637473
+      Mine_chain_explosion_100_350-Sheet_35: 3713073580318803155
+      Mine_chain_explosion_100_350-Sheet_36: -1453332621561452834
+      Mine_chain_explosion_100_350-Sheet_37: 6210484409442018093
+      Mine_chain_explosion_100_350-Sheet_38: -6000390523858050308
+      Mine_chain_explosion_100_350-Sheet_39: 8264317235670676386
+      Mine_chain_explosion_100_350-Sheet_4: -6817158898508286049
+      Mine_chain_explosion_100_350-Sheet_40: 1434707681790826544
+      Mine_chain_explosion_100_350-Sheet_41: -8109404186751410445
+      Mine_chain_explosion_100_350-Sheet_42: 2177768268409656079
+      Mine_chain_explosion_100_350-Sheet_43: 4566898070189311612
+      Mine_chain_explosion_100_350-Sheet_44: -8836862649465775140
+      Mine_chain_explosion_100_350-Sheet_45: -4558511577291901535
+      Mine_chain_explosion_100_350-Sheet_46: 7584275914640127775
+      Mine_chain_explosion_100_350-Sheet_47: 5155165974776620142
+      Mine_chain_explosion_100_350-Sheet_48: -6210569437160582667
+      Mine_chain_explosion_100_350-Sheet_49: 5142846441668080635
+      Mine_chain_explosion_100_350-Sheet_5: 8651912991113273496
+      Mine_chain_explosion_100_350-Sheet_50: -4061037195832845003
+      Mine_chain_explosion_100_350-Sheet_51: 3305998295830782348
+      Mine_chain_explosion_100_350-Sheet_52: 441751961992212660
+      Mine_chain_explosion_100_350-Sheet_53: 384069863584644330
+      Mine_chain_explosion_100_350-Sheet_54: 175738472611843300
+      Mine_chain_explosion_100_350-Sheet_55: -2279553157625453694
+      Mine_chain_explosion_100_350-Sheet_56: -5773858568458124511
+      Mine_chain_explosion_100_350-Sheet_57: -8975143950141248137
+      Mine_chain_explosion_100_350-Sheet_58: -5815067011329664420
+      Mine_chain_explosion_100_350-Sheet_59: 4036740849582295007
+      Mine_chain_explosion_100_350-Sheet_6: -991755818567201062
+      Mine_chain_explosion_100_350-Sheet_60: -800393444163122415
+      Mine_chain_explosion_100_350-Sheet_61: -863451357383957448
+      Mine_chain_explosion_100_350-Sheet_62: 1072468967609129267
+      Mine_chain_explosion_100_350-Sheet_63: 2311680756696166053
+      Mine_chain_explosion_100_350-Sheet_64: -8582692950594868208
+      Mine_chain_explosion_100_350-Sheet_65: 1639809873285538328
+      Mine_chain_explosion_100_350-Sheet_66: 3622663675767101454
+      Mine_chain_explosion_100_350-Sheet_67: 8005900800665169914
+      Mine_chain_explosion_100_350-Sheet_68: 6987896368940577933
+      Mine_chain_explosion_100_350-Sheet_69: -4784719905578882945
+      Mine_chain_explosion_100_350-Sheet_7: -1035578059464520067
+      Mine_chain_explosion_100_350-Sheet_70: -4923267848689875368
+      Mine_chain_explosion_100_350-Sheet_71: -773154393907075569
+      Mine_chain_explosion_100_350-Sheet_72: -6461379268832265155
+      Mine_chain_explosion_100_350-Sheet_73: 1396476555171002289
+      Mine_chain_explosion_100_350-Sheet_74: -5438564878481433123
+      Mine_chain_explosion_100_350-Sheet_75: 3344311742350392749
+      Mine_chain_explosion_100_350-Sheet_76: -7918673143767738105
+      Mine_chain_explosion_100_350-Sheet_77: -6388965544240299487
+      Mine_chain_explosion_100_350-Sheet_78: -4851005763905960271
+      Mine_chain_explosion_100_350-Sheet_79: 8840128150903288423
+      Mine_chain_explosion_100_350-Sheet_8: 4001373270874832500
+      Mine_chain_explosion_100_350-Sheet_9: -6233540899062170456
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

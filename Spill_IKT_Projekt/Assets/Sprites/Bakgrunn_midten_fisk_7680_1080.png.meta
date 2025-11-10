@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 64fc02c419fb24dd69659f3e47e11f2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6100497513551921565
+    second: Bakgrunn_midten_fisk_7680_1080_0
+  - first:
+      213: -4651649703728335888
+    second: Bakgrunn_midten_fisk_7680_1080_1
+  - first:
+      213: 9092823450785575711
+    second: Bakgrunn_midten_fisk_7680_1080_2
+  - first:
+      213: 6805509100728955070
+    second: Bakgrunn_midten_fisk_7680_1080_3
+  - first:
+      213: -8770001417551799709
+    second: Bakgrunn_midten_fisk_7680_1080_4
+  - first:
+      213: -2719746929877824616
+    second: Bakgrunn_midten_fisk_7680_1080_5
+  - first:
+      213: 1571064854334846264
+    second: Bakgrunn_midten_fisk_7680_1080_6
+  - first:
+      213: 1750900407191446760
+    second: Bakgrunn_midten_fisk_7680_1080_7
+  - first:
+      213: -1140129611930767721
+    second: Bakgrunn_midten_fisk_7680_1080_8
+  - first:
+      213: -5099658936225751771
+    second: Bakgrunn_midten_fisk_7680_1080_9
+  - first:
+      213: 6760217462782241307
+    second: Bakgrunn_midten_fisk_7680_1080_10
+  - first:
+      213: -6411759876803609035
+    second: Bakgrunn_midten_fisk_7680_1080_11
+  - first:
+      213: -2489774820804998650
+    second: Bakgrunn_midten_fisk_7680_1080_12
+  - first:
+      213: 9168166815007206795
+    second: Bakgrunn_midten_fisk_7680_1080_13
+  - first:
+      213: 7052364650613160452
+    second: Bakgrunn_midten_fisk_7680_1080_14
+  - first:
+      213: -4538935737494870958
+    second: Bakgrunn_midten_fisk_7680_1080_15
+  - first:
+      213: -6233004833436946230
+    second: Bakgrunn_midten_fisk_7680_1080_16
+  - first:
+      213: -9067781200793576907
+    second: Bakgrunn_midten_fisk_7680_1080_17
+  - first:
+      213: -4047551939288756392
+    second: Bakgrunn_midten_fisk_7680_1080_18
+  - first:
+      213: -1935094555630933187
+    second: Bakgrunn_midten_fisk_7680_1080_19
+  - first:
+      213: 3832089005112302459
+    second: Bakgrunn_midten_fisk_7680_1080_20
+  - first:
+      213: -6405962538958121656
+    second: Bakgrunn_midten_fisk_7680_1080_21
+  - first:
+      213: -5168113365247674392
+    second: Bakgrunn_midten_fisk_7680_1080_22
+  - first:
+      213: 5622871019652317928
+    second: Bakgrunn_midten_fisk_7680_1080_23
+  - first:
+      213: -552516099474422702
+    second: Bakgrunn_midten_fisk_7680_1080_24
+  - first:
+      213: -7209099399710636110
+    second: Bakgrunn_midten_fisk_7680_1080_25
+  - first:
+      213: 839230460896916355
+    second: Bakgrunn_midten_fisk_7680_1080_26
+  - first:
+      213: -6560415700591350829
+    second: Bakgrunn_midten_fisk_7680_1080_27
+  - first:
+      213: 7649363403569215560
+    second: Bakgrunn_midten_fisk_7680_1080_28
+  - first:
+      213: 1047975705147482322
+    second: Bakgrunn_midten_fisk_7680_1080_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_0
+      rect:
+        serializedVersion: 2
+        x: 4610
+        y: 902
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e759f45dda65ba0800000000000000
+      internalID: -6100497513551921565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_1
+      rect:
+        serializedVersion: 2
+        x: 4642
+        y: 910
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3b8bd6d35027fb0800000000000000
+      internalID: -4651649703728335888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_2
+      rect:
+        serializedVersion: 2
+        x: 4675
+        y: 903
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f137a6da0c2303e70800000000000000
+      internalID: 9092823450785575711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_3
+      rect:
+        serializedVersion: 2
+        x: 4706
+        y: 900
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb033a05876027e50800000000000000
+      internalID: 6805509100728955070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_4
+      rect:
+        serializedVersion: 2
+        x: 4647
+        y: 890
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a172b1d22ba4680800000000000000
+      internalID: -8770001417551799709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_5
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 768
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b4cadb394814ad0800000000000000
+      internalID: -2719746929877824616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_6
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 784
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835bab1492b8dc510800000000000000
+      internalID: 1571064854334846264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_7
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 790
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4abb7c4a27c4810800000000000000
+      internalID: 1750900407191446760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_8
+      rect:
+        serializedVersion: 2
+        x: 6002
+        y: 800
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e66fa98227d20f0800000000000000
+      internalID: -1140129611930767721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_9
+      rect:
+        serializedVersion: 2
+        x: 6034
+        y: 787
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d1e96773f5a39b0800000000000000
+      internalID: -5099658936225751771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_10
+      rect:
+        serializedVersion: 2
+        x: 5974
+        y: 780
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a278917fd11dd50800000000000000
+      internalID: 6760217462782241307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_11
+      rect:
+        serializedVersion: 2
+        x: 6007
+        y: 772
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eb40eec5ad407a0800000000000000
+      internalID: -6411759876803609035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_12
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 761
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ac43bedfa827dd0800000000000000
+      internalID: -2489774820804998650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_13
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 717
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d670aa42fdb3f70800000000000000
+      internalID: 9168166815007206795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_14
+      rect:
+        serializedVersion: 2
+        x: 5401
+        y: 714
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ab152e8480fd160800000000000000
+      internalID: 7052364650613160452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_15
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 693
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254ea4cbef57201c0800000000000000
+      internalID: -4538935737494870958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 634
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0b2bbb02bef79a0800000000000000
+      internalID: -6233004833436946230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_17
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 619
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53adbb18a05c82280800000000000000
+      internalID: -9067781200793576907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_18
+      rect:
+        serializedVersion: 2
+        x: 3511
+        y: 633
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f00c0c4f434d7c0800000000000000
+      internalID: -4047551939288756392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_19
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 615
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b63d411c92525e0800000000000000
+      internalID: -1935094555630933187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_20
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 605
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b166995a05e2530800000000000000
+      internalID: 3832089005112302459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 600
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84511f4d2037917a0800000000000000
+      internalID: -6405962538958121656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_22
+      rect:
+        serializedVersion: 2
+        x: 7214
+        y: 533
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7b671b64c2748b0800000000000000
+      internalID: -5168113365247674392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_23
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 426
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e20730b663780e40800000000000000
+      internalID: 5622871019652317928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_24
+      rect:
+        serializedVersion: 2
+        x: 6597
+        y: 412
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254842ee8811558f0800000000000000
+      internalID: -552516099474422702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_25
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 394
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b704c99a4224fb90800000000000000
+      internalID: -7209099399710636110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_26
+      rect:
+        serializedVersion: 2
+        x: 6595
+        y: 383
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383b27268ab85ab00800000000000000
+      internalID: 839230460896916355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 7680
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db6b5bcda8b4f4a0800000000000000
+      internalID: -6560415700591350829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_28
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 321
+        width: 166
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848bd9bcc7ff72a60800000000000000
+      internalID: 7649363403569215560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bakgrunn_midten_fisk_7680_1080_29
+      rect:
+        serializedVersion: 2
+        x: 6393
+        y: 340
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d02e86f9582b8e00800000000000000
+      internalID: 1047975705147482322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bakgrunn_midten_fisk_7680_1080_0: -6100497513551921565
+      Bakgrunn_midten_fisk_7680_1080_1: -4651649703728335888
+      Bakgrunn_midten_fisk_7680_1080_10: 6760217462782241307
+      Bakgrunn_midten_fisk_7680_1080_11: -6411759876803609035
+      Bakgrunn_midten_fisk_7680_1080_12: -2489774820804998650
+      Bakgrunn_midten_fisk_7680_1080_13: 9168166815007206795
+      Bakgrunn_midten_fisk_7680_1080_14: 7052364650613160452
+      Bakgrunn_midten_fisk_7680_1080_15: -4538935737494870958
+      Bakgrunn_midten_fisk_7680_1080_16: -6233004833436946230
+      Bakgrunn_midten_fisk_7680_1080_17: -9067781200793576907
+      Bakgrunn_midten_fisk_7680_1080_18: -4047551939288756392
+      Bakgrunn_midten_fisk_7680_1080_19: -1935094555630933187
+      Bakgrunn_midten_fisk_7680_1080_2: 9092823450785575711
+      Bakgrunn_midten_fisk_7680_1080_20: 3832089005112302459
+      Bakgrunn_midten_fisk_7680_1080_21: -6405962538958121656
+      Bakgrunn_midten_fisk_7680_1080_22: -5168113365247674392
+      Bakgrunn_midten_fisk_7680_1080_23: 5622871019652317928
+      Bakgrunn_midten_fisk_7680_1080_24: -552516099474422702
+      Bakgrunn_midten_fisk_7680_1080_25: -7209099399710636110
+      Bakgrunn_midten_fisk_7680_1080_26: 839230460896916355
+      Bakgrunn_midten_fisk_7680_1080_27: -6560415700591350829
+      Bakgrunn_midten_fisk_7680_1080_28: 7649363403569215560
+      Bakgrunn_midten_fisk_7680_1080_29: 1047975705147482322
+      Bakgrunn_midten_fisk_7680_1080_3: 6805509100728955070
+      Bakgrunn_midten_fisk_7680_1080_4: -8770001417551799709
+      Bakgrunn_midten_fisk_7680_1080_5: -2719746929877824616
+      Bakgrunn_midten_fisk_7680_1080_6: 1571064854334846264
+      Bakgrunn_midten_fisk_7680_1080_7: 1750900407191446760
+      Bakgrunn_midten_fisk_7680_1080_8: -1140129611930767721
+      Bakgrunn_midten_fisk_7680_1080_9: -5099658936225751771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
