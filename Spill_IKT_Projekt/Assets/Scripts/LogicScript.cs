@@ -8,10 +8,14 @@ public class LogicScript : MonoBehaviour
     public Text scoreText;
     public GameObject gameOverScreen;
 
+    public bool isGameOver = false;
+
     [ContextMenu("Increase Score")]
-    public void addScore(int scoreToAdd)
+    public void addScore(int scoreToAdd = 1)
     {
-        playerScore = playerScore + scoreToAdd;
+        if (isGameOver) return;
+
+        playerScore += scoreToAdd;
         scoreText.text = playerScore.ToString();
     }
 
@@ -22,7 +26,8 @@ public class LogicScript : MonoBehaviour
     
     public void gameOver()
     {
+        isGameOver = true;
         gameOverScreen.SetActive(true);
+        Debug.Log("Game Over!");
     }
 }
- 
