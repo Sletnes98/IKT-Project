@@ -37,3 +37,4 @@ public class MineSpawnerScript : MonoBehaviour
         Instantiate(mine, spawnPos, Quaternion.identity);
     }
 }
+ 
