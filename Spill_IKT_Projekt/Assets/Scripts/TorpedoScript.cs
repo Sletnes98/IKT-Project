@@ -17,23 +17,30 @@ public class TorpedoScript : MonoBehaviour
         transform.position += Vector3.right * speed * Time.deltaTime;
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+   void OnTriggerEnter2D(Collider2D collision)
 {
-    // sjekk etter BottomMine
-    if (collision.CompareTag("BottomMine"))
+    // Få tak i om vi traff en circle collider
+    if (collision is CircleCollider2D)
     {
-        collision.GetComponent<BottomMineHit>()?.Explode();
-        Destroy(gameObject);
-        return;
+        // sjekk om det er BottomMine
+        if (collision.transform.CompareTag("BottomMine"))
+        {
+            collision.GetComponent<BottomMineHit>()?.Explode();
+            Destroy(gameObject);
+            return;
+        }
+
+        // sjekk om det er TopMine
+        if (collision.transform.CompareTag("TopMine"))
+        {
+            collision.GetComponent<TopMineHit>()?.Explode();
+            Destroy(gameObject);
+            return;
+        }
     }
 
-    // sjekk etter TopMine
-    if (collision.CompareTag("TopMine"))
-    {
-        collision.GetComponent<TopMineHit>()?.Explode();
-        Destroy(gameObject);
-        return;
-    }
+    // Treffer vi kjeden? Ikke gjør noe!
 }
+
 
 }
