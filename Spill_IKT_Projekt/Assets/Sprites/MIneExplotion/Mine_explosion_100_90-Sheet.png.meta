@@ -307,12 +307,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 30
-        width: 32
-        height: 31
+        x: 0
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_1
       rect:
         serializedVersion: 2
-        x: 133
-        y: 29
-        width: 33
-        height: 33
+        x: 100
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_2
       rect:
         serializedVersion: 2
-        x: 230
-        y: 28
-        width: 39
-        height: 35
+        x: 200
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -373,12 +373,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_3
       rect:
         serializedVersion: 2
-        x: 321
-        y: 26
-        width: 62
-        height: 41
+        x: 300
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,12 +395,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_4
       rect:
         serializedVersion: 2
-        x: 416
-        y: 25
-        width: 54
-        height: 46
+        x: 400
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -417,12 +417,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_5
       rect:
         serializedVersion: 2
-        x: 471
-        y: 45
-        width: 14
-        height: 6
+        x: 500
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -439,12 +439,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_6
       rect:
         serializedVersion: 2
-        x: 522
-        y: 22
-        width: 54
-        height: 50
+        x: 600
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -461,12 +461,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_7
       rect:
         serializedVersion: 2
-        x: 617
-        y: 18
-        width: 65
-        height: 57
+        x: 700
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -483,12 +483,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_8
       rect:
         serializedVersion: 2
-        x: 716
-        y: 36
-        width: 26
-        height: 25
+        x: 800
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -505,12 +505,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_9
       rect:
         serializedVersion: 2
-        x: 721
-        y: 53
-        width: 16
-        height: 14
+        x: 900
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -527,12 +527,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_10
       rect:
         serializedVersion: 2
-        x: 734
-        y: 47
-        width: 22
-        height: 26
+        x: 1000
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -549,12 +549,12 @@ TextureImporter:
       name: Mine_explosion_100_90-Sheet_11
       rect:
         serializedVersion: 2
-        x: 740
-        y: 32
-        width: 14
-        height: 19
+        x: 1100
+        y: 0
+        width: 100
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -567,1265 +567,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 753
-        y: 41
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a3a3b0f5e020ef20800000000000000
-      internalID: 3449793486523704232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 754
-        y: 41
-        width: 26
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a24f42afba21fc370800000000000000
-      internalID: 8344909164386251818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 35
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eaf9d97e5cfd4c8f0800000000000000
-      internalID: -521045615780716626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 55
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65a1beb66f968fff0800000000000000
-      internalID: -2135292720244138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 831
-        y: 48
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebd493448b2333540800000000000000
-      internalID: 4986384979429248446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_17
-      rect:
-        serializedVersion: 2
-        x: 833
-        y: 46
-        width: 22
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9984d9899caa5b640800000000000000
-      internalID: 5095166336265177241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_18
-      rect:
-        serializedVersion: 2
-        x: 854
-        y: 40
-        width: 29
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 698ba92e9e7a1eec0800000000000000
-      internalID: -3539363209165490026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_19
-      rect:
-        serializedVersion: 2
-        x: 910
-        y: 35
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbc75790185043e40800000000000000
-      internalID: 5635135085514947775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_20
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 60
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38c2075706a09d9b0800000000000000
-      internalID: -5054997697343247229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_21
-      rect:
-        serializedVersion: 2
-        x: 931
-        y: 53
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 065cbd0b337985710800000000000000
-      internalID: 1682260709089199456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_22
-      rect:
-        serializedVersion: 2
-        x: 932
-        y: 66
-        width: 19
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 611a8d80ae7598f60800000000000000
-      internalID: 8037051672701739286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_23
-      rect:
-        serializedVersion: 2
-        x: 941
-        y: 47
-        width: 14
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3aad8be7864847e40800000000000000
-      internalID: 5653289016594324131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_24
-      rect:
-        serializedVersion: 2
-        x: 957
-        y: 59
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 894e300701b0ad020800000000000000
-      internalID: 2367216719363302552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_25
-      rect:
-        serializedVersion: 2
-        x: 957
-        y: 42
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6342efdfdc33c9400800000000000000
-      internalID: 332197432341177398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_26
-      rect:
-        serializedVersion: 2
-        x: 971
-        y: 40
-        width: 15
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca991d1b7e39d2b60800000000000000
-      internalID: 7722991559340300716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_27
-      rect:
-        serializedVersion: 2
-        x: 1006
-        y: 35
-        width: 24
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: affba1df57063f390800000000000000
-      internalID: -7785773270919626758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_28
-      rect:
-        serializedVersion: 2
-        x: 1014
-        y: 51
-        width: 33
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3525bd50d009a4f30800000000000000
-      internalID: 4560615958273282643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_29
-      rect:
-        serializedVersion: 2
-        x: 1029
-        y: 55
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81afca488afc71350800000000000000
-      internalID: 5987482552299747864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_30
-      rect:
-        serializedVersion: 2
-        x: 1037
-        y: 13
-        width: 27
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93956d7e9e298fe60800000000000000
-      internalID: 7996302671710935353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_31
-      rect:
-        serializedVersion: 2
-        x: 1039
-        y: 72
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbe921e64dc266e20800000000000000
-      internalID: 3343409064260574911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_32
-      rect:
-        serializedVersion: 2
-        x: 1049
-        y: 64
-        width: 6
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2472b7d004c79eb60800000000000000
-      internalID: 7775882846177797954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_33
-      rect:
-        serializedVersion: 2
-        x: 1049
-        y: 50
-        width: 6
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e5db95ed0f9feab0800000000000000
-      internalID: -4976584181185522201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_34
-      rect:
-        serializedVersion: 2
-        x: 1058
-        y: 67
-        width: 15
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b1b59e19dc3a6ce30800000000000000
-      internalID: 4523482979051854619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_35
-      rect:
-        serializedVersion: 2
-        x: 1058
-        y: 63
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6a09fc3cf33645d0800000000000000
-      internalID: -3078716136813426067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_36
-      rect:
-        serializedVersion: 2
-        x: 1059
-        y: 52
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d7fdedb84fa80340800000000000000
-      internalID: 4830303327313852373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_37
-      rect:
-        serializedVersion: 2
-        x: 1069
-        y: 6
-        width: 123
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33f35c303eb9ebfa0800000000000000
-      internalID: -5783013472173998285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_38
-      rect:
-        serializedVersion: 2
-        x: 751
-        y: 26
-        width: 10
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d09fb7b6ed59e96d0800000000000000
-      internalID: -2981781120754124531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_39
-      rect:
-        serializedVersion: 2
-        x: 758
-        y: 16
-        width: 23
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac98efe73d19f6170800000000000000
-      internalID: 8173912186255477194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_40
-      rect:
-        serializedVersion: 2
-        x: 839
-        y: 36
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52bc96b372448c9d0800000000000000
-      internalID: -2753876236845855963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_41
-      rect:
-        serializedVersion: 2
-        x: 851
-        y: 23
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 962508db6695acda0800000000000000
-      internalID: -5923824062051626391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_42
-      rect:
-        serializedVersion: 2
-        x: 929
-        y: 40
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a14fe83e7a077350800000000000000
-      internalID: 6014287364613947814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_43
-      rect:
-        serializedVersion: 2
-        x: 938
-        y: 38
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02b22b83215b293c0800000000000000
-      internalID: -4354218799848608992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_44
-      rect:
-        serializedVersion: 2
-        x: 950
-        y: 31
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84a2c1a7d92e93ba0800000000000000
-      internalID: -6108602253564958136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_45
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 25
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28e990aea0bdf3e10800000000000000
-      internalID: 2179701584593264258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_46
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 19
-        width: 24
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81e66eb0a7cbf9500800000000000000
-      internalID: 405249723858316824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_47
-      rect:
-        serializedVersion: 2
-        x: 742
-        y: 16
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59a4db0db646b4fd0800000000000000
-      internalID: -2356679565771978091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_48
-      rect:
-        serializedVersion: 2
-        x: 818
-        y: 15
-        width: 23
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 588bed7140592c1c0800000000000000
-      internalID: -4484858434094712699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_49
-      rect:
-        serializedVersion: 2
-        x: 841
-        y: 30
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc76c0811e8d545b0800000000000000
-      internalID: -5384659318168852529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_50
-      rect:
-        serializedVersion: 2
-        x: 841
-        y: 16
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82a56c017de07ead0800000000000000
-      internalID: -2673151536958907864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_51
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 12
-        width: 25
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9f309079e6fa0000800000000000000
-      internalID: 3086232243421082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_52
-      rect:
-        serializedVersion: 2
-        x: 916
-        y: 13
-        width: 24
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f445cbaa6908ad670800000000000000
-      internalID: 8564299025996338255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_53
-      rect:
-        serializedVersion: 2
-        x: 924
-        y: 26
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eff444cf90c155820800000000000000
-      internalID: 2906259963750141950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_54
-      rect:
-        serializedVersion: 2
-        x: 940
-        y: 30
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9add3b5e968b43d60800000000000000
-      internalID: 7869117213887946153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_55
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 22
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 953a3e46a9eb419f0800000000000000
-      internalID: -498564088404401319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_56
-      rect:
-        serializedVersion: 2
-        x: 964
-        y: 18
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8e687cfd7e198570800000000000000
-      internalID: 8469334100702424719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_57
-      rect:
-        serializedVersion: 2
-        x: 969
-        y: 14
-        width: 17
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebdbf4acc76b96770800000000000000
-      internalID: 8604609210154466750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_58
-      rect:
-        serializedVersion: 2
-        x: 981
-        y: 29
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7fb9b94faaa421490800000000000000
-      internalID: -7777071508406690825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_59
-      rect:
-        serializedVersion: 2
-        x: 1013
-        y: 14
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cb8d9f2e6f081d70800000000000000
-      internalID: 9013971620101721032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_60
-      rect:
-        serializedVersion: 2
-        x: 1021
-        y: 26
-        width: 12
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ccabac8e2d8fa6a50800000000000000
-      internalID: 6515293395677264588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_61
-      rect:
-        serializedVersion: 2
-        x: 941
-        y: 15
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9884a2ca09d4ad7c0800000000000000
-      internalID: -4045836031479887735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_62
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 11
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ecdd47b1037893d90800000000000000
-      internalID: -7117509095393534514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_63
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 17
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 780fd0031800eb540800000000000000
-      internalID: 5025454789049053319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_64
-      rect:
-        serializedVersion: 2
-        x: 1082
-        y: 19
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60aeb6f59f6ff2a60800000000000000
-      internalID: 7651605842833959430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_65
-      rect:
-        serializedVersion: 2
-        x: 1111
-        y: 13
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f69be88bafee79c0800000000000000
-      internalID: -3927438305004906764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_66
-      rect:
-        serializedVersion: 2
-        x: 1174
-        y: 11
-        width: 6
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 510545c10bad0bb90800000000000000
-      internalID: -7228036952005259243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_67
-      rect:
-        serializedVersion: 2
-        x: 962
-        y: 11
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 265f9059329a0c910800000000000000
-      internalID: 1855669016766051682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mine_explosion_100_90-Sheet_68
-      rect:
-        serializedVersion: 2
-        x: 1063
-        y: 9
-        width: 15
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f18ffec274a12ee00800000000000000
-      internalID: 1072448554266523679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2898f39cb21a840d6983cd5e443d4051
     internalID: 0
     vertices: []
     indices: 
@@ -1833,74 +579,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":90.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Mine_explosion_100_90-Sheet_0: -8989131178081621619
       Mine_explosion_100_90-Sheet_1: -5396742845261887320
       Mine_explosion_100_90-Sheet_10: 5484999617691208306
       Mine_explosion_100_90-Sheet_11: 1058028074755503120
-      Mine_explosion_100_90-Sheet_12: 3449793486523704232
-      Mine_explosion_100_90-Sheet_13: 8344909164386251818
-      Mine_explosion_100_90-Sheet_14: -521045615780716626
-      Mine_explosion_100_90-Sheet_15: -2135292720244138
-      Mine_explosion_100_90-Sheet_16: 4986384979429248446
-      Mine_explosion_100_90-Sheet_17: 5095166336265177241
-      Mine_explosion_100_90-Sheet_18: -3539363209165490026
-      Mine_explosion_100_90-Sheet_19: 5635135085514947775
       Mine_explosion_100_90-Sheet_2: 6809900970391973790
-      Mine_explosion_100_90-Sheet_20: -5054997697343247229
-      Mine_explosion_100_90-Sheet_21: 1682260709089199456
-      Mine_explosion_100_90-Sheet_22: 8037051672701739286
-      Mine_explosion_100_90-Sheet_23: 5653289016594324131
-      Mine_explosion_100_90-Sheet_24: 2367216719363302552
-      Mine_explosion_100_90-Sheet_25: 332197432341177398
-      Mine_explosion_100_90-Sheet_26: 7722991559340300716
-      Mine_explosion_100_90-Sheet_27: -7785773270919626758
-      Mine_explosion_100_90-Sheet_28: 4560615958273282643
-      Mine_explosion_100_90-Sheet_29: 5987482552299747864
       Mine_explosion_100_90-Sheet_3: -629425706111933502
-      Mine_explosion_100_90-Sheet_30: 7996302671710935353
-      Mine_explosion_100_90-Sheet_31: 3343409064260574911
-      Mine_explosion_100_90-Sheet_32: 7775882846177797954
-      Mine_explosion_100_90-Sheet_33: -4976584181185522201
-      Mine_explosion_100_90-Sheet_34: 4523482979051854619
-      Mine_explosion_100_90-Sheet_35: -3078716136813426067
-      Mine_explosion_100_90-Sheet_36: 4830303327313852373
-      Mine_explosion_100_90-Sheet_37: -5783013472173998285
-      Mine_explosion_100_90-Sheet_38: -2981781120754124531
-      Mine_explosion_100_90-Sheet_39: 8173912186255477194
       Mine_explosion_100_90-Sheet_4: 3869974818714764824
-      Mine_explosion_100_90-Sheet_40: -2753876236845855963
-      Mine_explosion_100_90-Sheet_41: -5923824062051626391
-      Mine_explosion_100_90-Sheet_42: 6014287364613947814
-      Mine_explosion_100_90-Sheet_43: -4354218799848608992
-      Mine_explosion_100_90-Sheet_44: -6108602253564958136
-      Mine_explosion_100_90-Sheet_45: 2179701584593264258
-      Mine_explosion_100_90-Sheet_46: 405249723858316824
-      Mine_explosion_100_90-Sheet_47: -2356679565771978091
-      Mine_explosion_100_90-Sheet_48: -4484858434094712699
-      Mine_explosion_100_90-Sheet_49: -5384659318168852529
       Mine_explosion_100_90-Sheet_5: 1335105175161787337
-      Mine_explosion_100_90-Sheet_50: -2673151536958907864
-      Mine_explosion_100_90-Sheet_51: 3086232243421082
-      Mine_explosion_100_90-Sheet_52: 8564299025996338255
-      Mine_explosion_100_90-Sheet_53: 2906259963750141950
-      Mine_explosion_100_90-Sheet_54: 7869117213887946153
-      Mine_explosion_100_90-Sheet_55: -498564088404401319
-      Mine_explosion_100_90-Sheet_56: 8469334100702424719
-      Mine_explosion_100_90-Sheet_57: 8604609210154466750
-      Mine_explosion_100_90-Sheet_58: -7777071508406690825
-      Mine_explosion_100_90-Sheet_59: 9013971620101721032
       Mine_explosion_100_90-Sheet_6: -3162937707485246703
-      Mine_explosion_100_90-Sheet_60: 6515293395677264588
-      Mine_explosion_100_90-Sheet_61: -4045836031479887735
-      Mine_explosion_100_90-Sheet_62: -7117509095393534514
-      Mine_explosion_100_90-Sheet_63: 5025454789049053319
-      Mine_explosion_100_90-Sheet_64: 7651605842833959430
-      Mine_explosion_100_90-Sheet_65: -3927438305004906764
-      Mine_explosion_100_90-Sheet_66: -7228036952005259243
-      Mine_explosion_100_90-Sheet_67: 1855669016766051682
-      Mine_explosion_100_90-Sheet_68: 1072448554266523679
       Mine_explosion_100_90-Sheet_7: -6851917332685200285
       Mine_explosion_100_90-Sheet_8: -3726346229731512626
       Mine_explosion_100_90-Sheet_9: 4654245994601194993
