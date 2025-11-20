@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 3560016438790501199}
   m_Layer: 0
   m_Name: Mine_original
-  m_TagString: Untagged
+  m_TagString: Mine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,9 +153,10 @@ GameObject:
   - component: {fileID: 3929136987950498671}
   - component: {fileID: 7465078680810819115}
   - component: {fileID: 2328774002045874371}
+  - component: {fileID: 2894995755990042874}
   m_Layer: 0
   m_Name: BottomMine
-  m_TagString: Untagged
+  m_TagString: BottomMine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -325,6 +326,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1, y: 3.2}
   m_EdgeRadius: 0
+--- !u!114 &2894995755990042874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7582594296466392668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b286335b73554e1eaf48c5d4cec994a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  explosionPrefab: {fileID: 2615415296898015099, guid: 493c2560c21e8475c9357d8f6ed66ce4, type: 3}
 --- !u!1 &9215321804652825818
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,9 +351,10 @@ GameObject:
   - component: {fileID: 278428795587193278}
   - component: {fileID: 2004944649544497134}
   - component: {fileID: 6066617622400371892}
+  - component: {fileID: 5706499285625388673}
   m_Layer: 0
-  m_Name: TopMIne
-  m_TagString: Untagged
+  m_Name: TopMine
+  m_TagString: TopMine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -509,3 +524,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1, y: 3.2}
   m_EdgeRadius: 0
+--- !u!114 &5706499285625388673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215321804652825818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd60b4d10544484e8b7e6001fe5e907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TopMineHit
+  explosionPrefab: {fileID: 1819119042084439722, guid: f3af45d62c2d84d9e98868205cc01ebc, type: 3}

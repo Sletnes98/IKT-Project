@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Logic
   - "Ub\xE5t"
+  - Mine
+  - BottomMine
+  - TopMIne
+  - TopMine
   layers:
   - Default
   - TransparentFX

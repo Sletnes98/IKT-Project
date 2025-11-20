@@ -18,12 +18,22 @@ public class TorpedoScript : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision)
+{
+    // sjekk etter BottomMine
+    if (collision.CompareTag("BottomMine"))
     {
-        if (collision.CompareTag("Mine"))
-        {
-            // Her kan du legge til eksplosjon senere 💥
-            Destroy(collision.gameObject); // Ødelegg minen
-            Destroy(gameObject); // Ødelegg torpedoen
-        }
+        collision.GetComponent<BottomMineHit>()?.Explode();
+        Destroy(gameObject);
+        return;
     }
+
+    // sjekk etter TopMine
+    if (collision.CompareTag("TopMine"))
+    {
+        collision.GetComponent<TopMineHit>()?.Explode();
+        Destroy(gameObject);
+        return;
+    }
+}
+
 }
