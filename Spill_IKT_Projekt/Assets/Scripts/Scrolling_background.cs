@@ -1,16 +1,20 @@
 using UnityEngine;
 
-public class Scrolling_background : MonoBehaviour
+public class ScrollingBackground : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public float speed;
+    public float speed = 0.1f;       // Sett forskjellig verdi per lag
+    private Material mat;
+    private Vector2 offset;
 
-    [SerializeField]
-    private Renderer bgRenderer;
+    void Start()
+    {
+        mat = GetComponent<Renderer>().material;
+        offset = mat.mainTextureOffset;
+    }
 
-    // Update is called once per frame
     void Update()
     {
-        bgRenderer.material.mainTextureOffset += new Vector2(speed * Time.deltaTime, 0);
+        offset.x += speed * Time.deltaTime;
+        mat.mainTextureOffset = offset;
     }
 }
