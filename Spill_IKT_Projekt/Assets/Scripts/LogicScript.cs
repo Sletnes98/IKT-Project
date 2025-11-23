@@ -10,14 +10,17 @@ public class LogicScript : MonoBehaviour
 
     public bool isGameOver = false;
 
+    // Hvor mange ganger farten har økt
     private int lastSpeedLevel = 0;
+
+    // Hvor mye minene øker i fart
     public float mineSpeedIncrease = 2f;
 
     private MineSpawnerScript spawner;
 
     void Start()
     {
-        // Ny, korrekt Unity 6 metode
+        // Finn spawner
         spawner = FindFirstObjectByType<MineSpawnerScript>();
     }
 
@@ -41,13 +44,13 @@ public class LogicScript : MonoBehaviour
 
     void IncreaseMineSpeed()
     {
-        // Øk farten på nye miner som spawner senere
+        // Øk farten for nye miner
         if (spawner != null)
         {
             spawner.currentMineSpeed += mineSpeedIncrease;
         }
 
-        // Øk farten på ALLE miner som allerede finnes i scenen
+        // Øk farten for ALLE miner i scenen
         MineMoveScript[] allMines =
             FindObjectsByType<MineMoveScript>(FindObjectsSortMode.None);
 
@@ -56,7 +59,16 @@ public class LogicScript : MonoBehaviour
             mine.moveSpeed += mineSpeedIncrease;
         }
 
-        Debug.Log("Fart økt med +" + mineSpeedIncrease);
+        // Øk parallax-farten
+        Parallax[] layers =
+            FindObjectsByType<Parallax>(FindObjectsSortMode.None);
+
+        foreach (Parallax p in layers)
+        {
+            p.IncreaseParallax();
+        }
+
+        Debug.Log("Fart økt for miner og parallax!");
     }
 
     public void restartGame()
@@ -71,7 +83,6 @@ public class LogicScript : MonoBehaviour
         Debug.Log("Game Over!");
     }
 
-    // For å freeze minene uten å bruke Time.timeScale
     public bool IsFrozen()
     {
         return isGameOver;
