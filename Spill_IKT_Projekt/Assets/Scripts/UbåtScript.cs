@@ -17,8 +17,8 @@ public class UbåtScript : MonoBehaviour
     private float shootTimer = 0f;
 
     [Header("Animation & eksplosjon")]
-    public Animator myAnimator;            // svømmeanimasjon (propell osv.)
-    public GameObject explosionPrefab;     // eksplosjon-prefab (samme type som minene kan bruke)
+    public Animator myAnimator;            // ubåtens svømmeanimasjon
+    public GameObject explosionPrefab;     // eksplosjon som spawner når ubåten dør
 
     void Start()
     {
@@ -39,9 +39,8 @@ public class UbåtScript : MonoBehaviour
             }
         }
 
-        // 🔫 Skyte med venstre musetast
+        // 🔫 Skyting
         shootTimer += Time.deltaTime;
-
         if (Input.GetMouseButtonDown(0) && shootTimer >= shootCooldown)
         {
             ShootTorpedo();
@@ -56,9 +55,7 @@ public class UbåtScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!ubåtIsAlive) return;
-
-        // 👉 Gi minen 2 damage hvis den har MineHealth
+        // Hvis vi treffer en mine: gi den damage
         MineHealth mine = collision.collider.GetComponent<MineHealth>();
         if (mine != null)
         {
@@ -66,34 +63,43 @@ public class UbåtScript : MonoBehaviour
             mine.TakeDamage(); // 2 damage totalt fra krasj
         }
 
+        // Ubåten dør uansett hva den treffer
+        Die();
+    }
+
+    // 🔥 DØDSMETODE — alt samlet ett sted
+    public void Die()
+    {
+        if (!ubåtIsAlive) return;
+
         ubåtIsAlive = false;
 
-        // Stopp svømmeanimasjon (valgfritt)
+        // Stopp svømmeanimasjon
         if (myAnimator != null)
-        {
             myAnimator.enabled = false;
-        }
 
-        // Spawn eksplosjon ved ubåten
+        // Spawn eksplosjon
         if (explosionPrefab != null)
-        {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
-        }
 
-        // Skru av sprite på ubåten
+        // Skru av sprite renderer
         var sr = GetComponent<SpriteRenderer>();
         if (sr != null) sr.enabled = false;
 
-        // Slå av collider så den ikke kolliderer flere ganger
+        // Skru av collider så den ikke treffer noe mer
         var col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
 
-        // Stopp all bevegelse og tyngdekraft
+        // Stopp bevegelse og tyngdekraft
         myRigidbody.linearVelocity = Vector2.zero;
         myRigidbody.linearVelocity = Vector2.zero;
         myRigidbody.gravityScale = 0f;
 
-        // Game over (soft freeze – resten stopper via IsFrozen())
+
+        CameraShake.instance.Shake(0.4f, 0.3f);
+
+
+        // Game over (soft freeze)
         logic.gameOver();
     }
 }

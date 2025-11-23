@@ -2,22 +2,12 @@ using UnityEngine;
 
 public class BoundaryScript : MonoBehaviour
 {
-    private LogicScript logic;
-
-    void Start()
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        if (collision.CompareTag("Ubåt"))
+        {
+            // La ubåtens egen dødsmekanisme ta seg av alt
+            collision.GetComponent<UbåtScript>().Die();
+        }
     }
-
-void OnTriggerEnter2D(Collider2D collision)
-{
-    if (collision.gameObject.CompareTag("Ubåt"))
-    {
-        logic.gameOver();
-
-        // hent ubåt-skriptet og slå av styringen
-        collision.gameObject.GetComponent<UbåtScript>().ubåtIsAlive = false;
-    }
-}
-
 }
