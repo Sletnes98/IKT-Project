@@ -10,6 +10,20 @@ public class LogicScript : MonoBehaviour
 
     public bool isGameOver = false;
 
+    // 🚀 Hvor mange ganger vi har økt farten
+    private int lastSpeedLevel = 0;
+
+    // 🚀 Hvor mye farten øker hver gang
+    public float mineSpeedIncrease = 2f;
+
+    private MineSpawnerScript spawner;
+
+    void Start()
+    {
+        // Finn spawner i scenen
+        spawner = GameObject.FindObjectOfType<MineSpawnerScript>();
+    }
+
     [ContextMenu("Increase Score")]
     public void addScore(int scoreToAdd = 1)
     {
@@ -17,6 +31,36 @@ public class LogicScript : MonoBehaviour
 
         playerScore += scoreToAdd;
         scoreText.text = playerScore.ToString();
+
+        // 🔥 Øk fart hver 5 poeng (tidligere 10)
+        int speedLevel = playerScore / 5;
+
+        if (speedLevel > lastSpeedLevel)
+        {
+            lastSpeedLevel = speedLevel;
+            IncreaseMineSpeed();
+        }
+    }
+
+    void IncreaseMineSpeed()
+    {
+        // --- Øk farten for NYE miner ---
+        if (spawner != null)
+        {
+            spawner.currentMineSpeed += mineSpeedIncrease;
+        }
+
+        // --- Øk farten for ALLE miner som finnes nå ---
+        MineMoveScript[] allMines =
+            FindObjectsByType<MineMoveScript>(FindObjectsSortMode.None);
+
+        foreach (MineMoveScript mine in allMines)
+        {
+            mine.moveSpeed += mineSpeedIncrease;
+            mine.RefreshAnimatorSpeed();   // 🔥 Oppdater animasjonshastighet
+        }
+
+        Debug.Log("🔥 Fart økt! Nye speed: +" + mineSpeedIncrease);
     }
 
     public void restartGame()
@@ -29,12 +73,9 @@ public class LogicScript : MonoBehaviour
         isGameOver = true;
         gameOverScreen.SetActive(true);
         Debug.Log("Game Over!");
-
-        // Ikke freeze Time.timeScale
-        // Alt annet i spillet stopper fordi scripts sjekker IsFrozen()
     }
 
-    // 🚫 Brukes av alle scripts (miner, bakgrunn osv) for å stoppe bevegelse
+    // Brukes av mine scripts for å stoppe bevegelse på game over
     public bool IsFrozen()
     {
         return isGameOver;

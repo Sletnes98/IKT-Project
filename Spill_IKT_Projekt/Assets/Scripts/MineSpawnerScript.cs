@@ -18,6 +18,9 @@ public class MineSpawnerScript : MonoBehaviour
     [Range(0f, 1f)]
     public float blockedChance = 0.2f;  // 20% sjanse
 
+    // 🔥 NYTT: Fart på alle miner (startfarten)
+    public float currentMineSpeed = 5f;
+
     private LogicScript logic;
 
     void Start()
@@ -48,14 +51,24 @@ public class MineSpawnerScript : MonoBehaviour
         float spawnX = transform.position.x + xOffset;
         Vector3 spawnPos = new Vector3(spawnX, randomY, 0);
 
+        GameObject prefabToSpawn;
+
         // Vanlige miner vs blokk-miner
         if (Random.value < blockedChance)
         {
-            Instantiate(mineBlocked, spawnPos, Quaternion.identity);
+            prefabToSpawn = mineBlocked;
         }
         else
         {
-            Instantiate(mineOriginal, spawnPos, Quaternion.identity);
+            prefabToSpawn = mineOriginal;
         }
+
+        // Lag mine
+        GameObject m = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
+
+        // ⭐ Sett fart på den nye minen
+        MineMoveScript move = m.GetComponent<MineMoveScript>();
+        if (move != null)
+            move.moveSpeed = currentMineSpeed;
     }
 }

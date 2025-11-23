@@ -6,11 +6,22 @@ public class MineMoveScript : MonoBehaviour
     public float deadZone = -20;
 
     private LogicScript logic;
+    private Animator anim;
 
     void Start()
     {
         // Finn LogicScript i scenen
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+
+        // Finn Animator hvis minen har en
+        anim = GetComponent<Animator>();
+
+        // Juster animasjonshastighet basert på moveSpeed
+        if (anim != null)
+        {
+            anim.speed = moveSpeed / 5f; 
+            // 5f er "base speed" – juster opp/ned om du vil ha mer eller mindre dramatisk effekt
+        }
     }
 
     void Update()
@@ -26,6 +37,15 @@ public class MineMoveScript : MonoBehaviour
         if (transform.position.x < deadZone)
         {
             Destroy(gameObject);
+        }
+    }
+
+    // Kall denne når LogicScript øker farten (brukes inne i IncreaseMineSpeed())
+    public void RefreshAnimatorSpeed()
+    {
+        if (anim != null)
+        {
+            anim.speed = moveSpeed / 5f;
         }
     }
 }

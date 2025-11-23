@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: c4471dadd5900493f871d9b918c18cfa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6571251179507212888
+    second: Submarine_explosion_90_80-Sheet_0
+  - first:
+      213: 564622048084639549
+    second: Submarine_explosion_90_80-Sheet_1
+  - first:
+      213: -2664627276041581727
+    second: Submarine_explosion_90_80-Sheet_2
+  - first:
+      213: -2074958807468675846
+    second: Submarine_explosion_90_80-Sheet_3
+  - first:
+      213: -4105832131412971215
+    second: Submarine_explosion_90_80-Sheet_4
+  - first:
+      213: 2421321539448821562
+    second: Submarine_explosion_90_80-Sheet_5
+  - first:
+      213: 1051162202115553473
+    second: Submarine_explosion_90_80-Sheet_6
+  - first:
+      213: -7179916093004647333
+    second: Submarine_explosion_90_80-Sheet_7
+  - first:
+      213: -7999289614093664055
+    second: Submarine_explosion_90_80-Sheet_8
+  - first:
+      213: 3545387023053316846
+    second: Submarine_explosion_90_80-Sheet_9
+  - first:
+      213: -3556234760066084378
+    second: Submarine_explosion_90_80-Sheet_10
+  - first:
+      213: 518371574665143931
+    second: Submarine_explosion_90_80-Sheet_11
+  - first:
+      213: -6646895818519533919
+    second: Submarine_explosion_90_80-Sheet_12
+  - first:
+      213: -9099425544860180259
+    second: Submarine_explosion_90_80-Sheet_13
+  - first:
+      213: 6716464777777257524
+    second: Submarine_explosion_90_80-Sheet_14
+  - first:
+      213: -8690931057611205052
+    second: Submarine_explosion_90_80-Sheet_15
+  - first:
+      213: 904109316901978463
+    second: Submarine_explosion_90_80-Sheet_16
+  - first:
+      213: -8045222158875377998
+    second: Submarine_explosion_90_80-Sheet_17
+  - first:
+      213: 8718583507749677576
+    second: Submarine_explosion_90_80-Sheet_18
+  - first:
+      213: 6976001481592280649
+    second: Submarine_explosion_90_80-Sheet_19
+  - first:
+      213: 5949356757002294959
+    second: Submarine_explosion_90_80-Sheet_20
+  - first:
+      213: 4902625246495286068
+    second: Submarine_explosion_90_80-Sheet_21
+  - first:
+      213: -5809964076261888986
+    second: Submarine_explosion_90_80-Sheet_22
+  - first:
+      213: -3513589694782024263
+    second: Submarine_explosion_90_80-Sheet_23
+  - first:
+      213: -1887028913501583299
+    second: Submarine_explosion_90_80-Sheet_24
+  - first:
+      213: -1372729939508861155
+    second: Submarine_explosion_90_80-Sheet_25
+  - first:
+      213: -2222514098896188879
+    second: Submarine_explosion_90_80-Sheet_26
+  - first:
+      213: -6671474727548660480
+    second: Submarine_explosion_90_80-Sheet_27
+  - first:
+      213: -1300603314382649355
+    second: Submarine_explosion_90_80-Sheet_28
+  - first:
+      213: -3893825747953174626
+    second: Submarine_explosion_90_80-Sheet_29
+  - first:
+      213: -7003917711924352049
+    second: Submarine_explosion_90_80-Sheet_30
+  - first:
+      213: 4684239602641587743
+    second: Submarine_explosion_90_80-Sheet_31
+  - first:
+      213: 8983528054141656800
+    second: Submarine_explosion_90_80-Sheet_32
+  - first:
+      213: 3286368377211617362
+    second: Submarine_explosion_90_80-Sheet_33
+  - first:
+      213: -7314787710124815920
+    second: Submarine_explosion_90_80-Sheet_34
+  - first:
+      213: -5500939408773987105
+    second: Submarine_explosion_90_80-Sheet_35
+  - first:
+      213: 4626886822202353344
+    second: Submarine_explosion_90_80-Sheet_36
+  - first:
+      213: 8697598239845504429
+    second: Submarine_explosion_90_80-Sheet_37
+  - first:
+      213: -203188974560630023
+    second: Submarine_explosion_90_80-Sheet_38
+  - first:
+      213: -6295275938982167651
+    second: Submarine_explosion_90_80-Sheet_39
+  - first:
+      213: 6800368775301021752
+    second: Submarine_explosion_90_80-Sheet_40
+  - first:
+      213: -1042803150708932335
+    second: Submarine_explosion_90_80-Sheet_41
+  - first:
+      213: 6145823506399816141
+    second: Submarine_explosion_90_80-Sheet_42
+  - first:
+      213: 1047592592088380660
+    second: Submarine_explosion_90_80-Sheet_43
+  - first:
+      213: -5303229844630223150
+    second: Submarine_explosion_90_80-Sheet_44
+  - first:
+      213: -948058051554730653
+    second: Submarine_explosion_90_80-Sheet_45
+  - first:
+      213: 3953823029720468524
+    second: Submarine_explosion_90_80-Sheet_46
+  - first:
+      213: -1269566279484198043
+    second: Submarine_explosion_90_80-Sheet_47
+  - first:
+      213: -8682577286796336549
+    second: Submarine_explosion_90_80-Sheet_48
+  - first:
+      213: -6793988653674876938
+    second: Submarine_explosion_90_80-Sheet_49
+  - first:
+      213: -5682328447548863290
+    second: Submarine_explosion_90_80-Sheet_50
+  - first:
+      213: -8824894042681193508
+    second: Submarine_explosion_90_80-Sheet_51
+  - first:
+      213: 2640670027190677447
+    second: Submarine_explosion_90_80-Sheet_52
+  - first:
+      213: 3717737397203313429
+    second: Submarine_explosion_90_80-Sheet_53
+  - first:
+      213: -7675681371842575970
+    second: Submarine_explosion_90_80-Sheet_54
+  - first:
+      213: -7954731747143618818
+    second: Submarine_explosion_90_80-Sheet_55
+  - first:
+      213: -5390316404030837177
+    second: Submarine_explosion_90_80-Sheet_56
+  - first:
+      213: 4647942976284313465
+    second: Submarine_explosion_90_80-Sheet_57
+  - first:
+      213: 915878046019087120
+    second: Submarine_explosion_90_80-Sheet_58
+  - first:
+      213: -22691846790622376
+    second: Submarine_explosion_90_80-Sheet_59
+  - first:
+      213: -903923786131185207
+    second: Submarine_explosion_90_80-Sheet_60
+  - first:
+      213: 7702655646291685126
+    second: Submarine_explosion_90_80-Sheet_61
+  - first:
+      213: -2748306327772501922
+    second: Submarine_explosion_90_80-Sheet_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852e46cb126c13b50800000000000000
+      internalID: 6571251179507212888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f3070e2c0f5d700800000000000000
+      internalID: 564622048084639549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b89b83c97550bd0800000000000000
+      internalID: -2664627276041581727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afce24d45f34433e0800000000000000
+      internalID: -2074958807468675846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131bebb1e672507c0800000000000000
+      internalID: -4105832131412971215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3759d58c134a9120800000000000000
+      internalID: 2421321539448821562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c83a6a147a769e00800000000000000
+      internalID: 1051162202115553473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54f85faa50db5c90800000000000000
+      internalID: -7179916093004647333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0c9706a70dcf090800000000000000
+      internalID: -7999289614093664055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee26f5496beb33130800000000000000
+      internalID: 3545387023053316846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e15d54d357b5aec0800000000000000
+      internalID: -3556234760066084378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7663916330a13700800000000000000
+      internalID: 518371574665143931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_explosion_90_80-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 90
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a62d16487b71c3a0800000000000000
+      internalID: -6646895818519533919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 565203181a089491cb76e1114f322861
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":90.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Submarine_explosion_90_80-Sheet_0: 6571251179507212888
+      Submarine_explosion_90_80-Sheet_1: 564622048084639549
+      Submarine_explosion_90_80-Sheet_10: -3556234760066084378
+      Submarine_explosion_90_80-Sheet_11: 518371574665143931
+      Submarine_explosion_90_80-Sheet_12: -6646895818519533919
+      Submarine_explosion_90_80-Sheet_2: -2664627276041581727
+      Submarine_explosion_90_80-Sheet_3: -2074958807468675846
+      Submarine_explosion_90_80-Sheet_4: -4105832131412971215
+      Submarine_explosion_90_80-Sheet_5: 2421321539448821562
+      Submarine_explosion_90_80-Sheet_6: 1051162202115553473
+      Submarine_explosion_90_80-Sheet_7: -7179916093004647333
+      Submarine_explosion_90_80-Sheet_8: -7999289614093664055
+      Submarine_explosion_90_80-Sheet_9: 3545387023053316846
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
