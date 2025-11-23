@@ -152,8 +152,8 @@ GameObject:
   - component: {fileID: 1217092145128145219}
   - component: {fileID: 3929136987950498671}
   - component: {fileID: 2328774002045874371}
-  - component: {fileID: 2894995755990042874}
   - component: {fileID: 8661975364963471699}
+  - component: {fileID: 8714110674532481942}
   m_Layer: 0
   m_Name: BottomMine
   m_TagString: BottomMine
@@ -280,19 +280,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1, y: 2.69}
   m_EdgeRadius: 0
---- !u!114 &2894995755990042874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7582594296466392668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b286335b73554e1eaf48c5d4cec994a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  explosionPrefab: {fileID: 2615415296898015099, guid: 493c2560c21e8475c9357d8f6ed66ce4, type: 3}
 --- !u!58 &8661975364963471699
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -329,6 +316,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 1.31}
   m_Radius: 0.13
+--- !u!114 &8714110674532481942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7582594296466392668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0767c6a8147e4bc2bc86d461c612916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineHealth
+  explosionPrefab: {fileID: 2615415296898015099, guid: 493c2560c21e8475c9357d8f6ed66ce4, type: 3}
+  health: 2
+  neighborAbove: {fileID: 0}
+  neighborBelow: {fileID: 0}
 --- !u!1 &9215321804652825818
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,8 +343,8 @@ GameObject:
   - component: {fileID: 7671942437960965787}
   - component: {fileID: 278428795587193278}
   - component: {fileID: 6066617622400371892}
-  - component: {fileID: 5706499285625388673}
   - component: {fileID: 407308632646999205}
+  - component: {fileID: 6340087226391781371}
   m_Layer: 0
   m_Name: TopMine
   m_TagString: TopMine
@@ -468,19 +471,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1, y: 2.77}
   m_EdgeRadius: 0
---- !u!114 &5706499285625388673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9215321804652825818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bd60b4d10544484e8b7e6001fe5e907, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TopMineHit
-  explosionPrefab: {fileID: 1819119042084439722, guid: f3af45d62c2d84d9e98868205cc01ebc, type: 3}
 --- !u!58 &407308632646999205
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -517,3 +507,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 1.31}
   m_Radius: 0.13
+--- !u!114 &6340087226391781371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215321804652825818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0767c6a8147e4bc2bc86d461c612916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MineHealth
+  explosionPrefab: {fileID: 1819119042084439722, guid: f3af45d62c2d84d9e98868205cc01ebc, type: 3}
+  health: 2
+  neighborAbove: {fileID: 0}
+  neighborBelow: {fileID: 0}

@@ -5,6 +5,7 @@ public class UbåtScript : MonoBehaviour
     public LogicScript logic;
     public bool ubåtIsAlive = true;
 
+    [Header("Bevegelse")]
     public Rigidbody2D myRigidbody;
     public float oppKraft = 7f;
     public float maksOppHastighet = 8f;
@@ -15,9 +16,9 @@ public class UbåtScript : MonoBehaviour
     public float shootCooldown = 0.5f;
     private float shootTimer = 0f;
 
-    [Header("Animation")]
-    public Animator myAnimator;              // svømmeanimasjonen
-    public GameObject explosionPrefab;       // eksplosjon (samme som minene)
+    [Header("Animation & eksplosjon")]
+    public Animator myAnimator;            // svømmeanimasjon (propell osv.)
+    public GameObject explosionPrefab;     // eksplosjon-prefab (samme type som minene kan bruke)
 
     void Start()
     {
@@ -57,15 +58,23 @@ public class UbåtScript : MonoBehaviour
     {
         if (!ubåtIsAlive) return;
 
-        ubåtIsAlive = false;
-
-        // Spill eksplosjonsanimasjon (hvis du senere bruker anim)
-        if (myAnimator != null)
+        // 👉 Gi minen 2 damage hvis den har MineHealth
+        MineHealth mine = collision.collider.GetComponent<MineHealth>();
+        if (mine != null)
         {
-            myAnimator.SetTrigger("Explode");
+            mine.TakeDamage(); // 1 damage
+            mine.TakeDamage(); // 2 damage totalt fra krasj
         }
 
-        // Spawn eksplosjon som prefab (samme som minene)
+        ubåtIsAlive = false;
+
+        // Stopp svømmeanimasjon (valgfritt)
+        if (myAnimator != null)
+        {
+            myAnimator.enabled = false;
+        }
+
+        // Spawn eksplosjon ved ubåten
         if (explosionPrefab != null)
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
@@ -75,18 +84,16 @@ public class UbåtScript : MonoBehaviour
         var sr = GetComponent<SpriteRenderer>();
         if (sr != null) sr.enabled = false;
 
-        // Stopp all bevegelse umiddelbart
-        myRigidbody.linearVelocity = Vector2.zero;
-        myRigidbody.linearVelocity = Vector2.zero;
-
-        // ❄️ slå av gravity så ubåten IKKE begynner å synke
-        myRigidbody.gravityScale = 0f;
-
-        // Slå av collider så den ikke kolliderer igjen
+        // Slå av collider så den ikke kolliderer flere ganger
         var col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
 
-        // Aktiver Game Over (soft freeze)
+        // Stopp all bevegelse og tyngdekraft
+        myRigidbody.linearVelocity = Vector2.zero;
+        myRigidbody.linearVelocity = Vector2.zero;
+        myRigidbody.gravityScale = 0f;
+
+        // Game over (soft freeze – resten stopper via IsFrozen())
         logic.gameOver();
     }
 }
