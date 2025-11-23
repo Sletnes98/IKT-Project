@@ -17,7 +17,8 @@ public class LogicScript : MonoBehaviour
 
     void Start()
     {
-        spawner = GameObject.FindObjectOfType<MineSpawnerScript>();
+        // Ny, korrekt Unity 6 metode
+        spawner = FindFirstObjectByType<MineSpawnerScript>();
     }
 
     [ContextMenu("Increase Score")]
@@ -40,13 +41,13 @@ public class LogicScript : MonoBehaviour
 
     void IncreaseMineSpeed()
     {
-        // Øk farten på nye miner
+        // Øk farten på nye miner som spawner senere
         if (spawner != null)
         {
             spawner.currentMineSpeed += mineSpeedIncrease;
         }
 
-        // Øk farten på eksisterende miner
+        // Øk farten på ALLE miner som allerede finnes i scenen
         MineMoveScript[] allMines =
             FindObjectsByType<MineMoveScript>(FindObjectsSortMode.None);
 
@@ -70,6 +71,7 @@ public class LogicScript : MonoBehaviour
         Debug.Log("Game Over!");
     }
 
+    // For å freeze minene uten å bruke Time.timeScale
     public bool IsFrozen()
     {
         return isGameOver;

@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7011972971952541453}
   - component: {fileID: 6545972973450374212}
   - component: {fileID: 2468428148170644080}
-  - component: {fileID: 1604077208979355738}
   - component: {fileID: -4657200513572060011}
+  - component: {fileID: -5297095738438538469}
   m_Layer: 0
   m_Name: Mine_explosion_100_90-Sheet_0
   m_TagString: Untagged
@@ -115,7 +115,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1604077208979355738
+--- !u!114 &-4657200513572060011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618275432160803729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b8ef531f10e7405b9fefb2d2bd35d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!114 &-5297095738438538469
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,15 +141,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MineMoveScript
   moveSpeed: 5
   deadZone: -20
---- !u!114 &-4657200513572060011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5618275432160803729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b8ef531f10e7405b9fefb2d2bd35d27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
