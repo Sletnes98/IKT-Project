@@ -35,36 +35,50 @@ public class MineHealth : MonoBehaviour
         if (isExploding) return;
         isExploding = true;
 
+        GameObject exp = null;
+
+        // Spawn eksplosjon
         if (explosionPrefab != null)
         {
-            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            exp = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         }
 
+        // ⭐ GI eksplosjonen samme moveSpeed som minen ⭐
+        MineMoveScript mineMove = GetComponent<MineMoveScript>();
+
+        if (exp != null)
+        {
+            MineMoveScript expMove = exp.GetComponent<MineMoveScript>();
+
+            if (mineMove != null && expMove != null)
+            {
+                expMove.moveSpeed = mineMove.moveSpeed;
+            }
+        }
+
+        // Chain reaction
         if (doChain)
         {
             DamageNeighbors();
         }
 
+        // Disable collider og sprite så minen "forsvinner"
         var col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
 
         var sr = GetComponent<SpriteRenderer>();
         if (sr != null) sr.enabled = false;
 
+        // Destroy selve minen
         Destroy(gameObject, 0.05f);
     }
 
     void DamageNeighbors()
     {
-        // bare naboene vi har satt manuelt
         if (neighborAbove != null)
-        {
             neighborAbove.TakeDamage(false); // false = ikke starte ny chain
-        }
 
         if (neighborBelow != null)
-        {
             neighborBelow.TakeDamage(false);
-        }
     }
 }

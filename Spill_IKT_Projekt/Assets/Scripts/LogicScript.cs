@@ -10,17 +10,13 @@ public class LogicScript : MonoBehaviour
 
     public bool isGameOver = false;
 
-    // 🚀 Hvor mange ganger vi har økt farten
     private int lastSpeedLevel = 0;
-
-    // 🚀 Hvor mye farten øker hver gang
     public float mineSpeedIncrease = 2f;
 
     private MineSpawnerScript spawner;
 
     void Start()
     {
-        // Finn spawner i scenen
         spawner = GameObject.FindObjectOfType<MineSpawnerScript>();
     }
 
@@ -32,7 +28,7 @@ public class LogicScript : MonoBehaviour
         playerScore += scoreToAdd;
         scoreText.text = playerScore.ToString();
 
-        // 🔥 Øk fart hver 5 poeng (tidligere 10)
+        // Øk fart hver 5 poeng
         int speedLevel = playerScore / 5;
 
         if (speedLevel > lastSpeedLevel)
@@ -44,23 +40,22 @@ public class LogicScript : MonoBehaviour
 
     void IncreaseMineSpeed()
     {
-        // --- Øk farten for NYE miner ---
+        // Øk farten på nye miner
         if (spawner != null)
         {
             spawner.currentMineSpeed += mineSpeedIncrease;
         }
 
-        // --- Øk farten for ALLE miner som finnes nå ---
+        // Øk farten på eksisterende miner
         MineMoveScript[] allMines =
             FindObjectsByType<MineMoveScript>(FindObjectsSortMode.None);
 
         foreach (MineMoveScript mine in allMines)
         {
             mine.moveSpeed += mineSpeedIncrease;
-            mine.RefreshAnimatorSpeed();   // 🔥 Oppdater animasjonshastighet
         }
 
-        Debug.Log("🔥 Fart økt! Nye speed: +" + mineSpeedIncrease);
+        Debug.Log("Fart økt med +" + mineSpeedIncrease);
     }
 
     public void restartGame()
@@ -75,7 +70,6 @@ public class LogicScript : MonoBehaviour
         Debug.Log("Game Over!");
     }
 
-    // Brukes av mine scripts for å stoppe bevegelse på game over
     public bool IsFrozen()
     {
         return isGameOver;
