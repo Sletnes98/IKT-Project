@@ -16,29 +16,36 @@ public class TorpedoScript : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision)
+{
+    // 1️⃣ Hvis ikke CircleCollider2D → IGNORER treffet
+    if (!(collision is CircleCollider2D))
+        return;
+
+    // 2️⃣ Hvis objektet har MineHealth → bruk health-systemet
+    MineHealth health = collision.GetComponent<MineHealth>();
+    if (health != null)
     {
-        // Først: sjekk om objektet har MineHealth
-        MineHealth health = collision.GetComponent<MineHealth>();
-        if (health != null)
-        {
-            health.TakeDamage(); // mister 1 HP
-            Destroy(gameObject);// torpedoen forsvinner
-            return;
-        }
-
-        // Hvis ikke: sjekk TopMine / BottomMine
-        if (collision.CompareTag("BottomMine"))
-        {
-            collision.GetComponent<BottomMineHit>()?.Explode();
-            Destroy(gameObject);
-            return;
-        }
-
-        if (collision.CompareTag("TopMine"))
-        {
-            collision.GetComponent<TopMineHit>()?.Explode();
-            Destroy(gameObject);
-            return;
-        }
+        health.TakeDamage();
+        Destroy(gameObject);
+        return;
     }
+
+    // 3️⃣ Ellers: sjekk TopMine og BottomMine
+    if (collision.CompareTag("BottomMine"))
+    {
+        collision.GetComponent<BottomMineHit>()?.Explode();
+        Destroy(gameObject);
+        return;
+    }
+
+    if (collision.CompareTag("TopMine"))
+    {
+        collision.GetComponent<TopMineHit>()?.Explode();
+        Destroy(gameObject);
+        return;
+    }
+
+    // Treffer du andre ting → gjør ingenting
+}
+
 }

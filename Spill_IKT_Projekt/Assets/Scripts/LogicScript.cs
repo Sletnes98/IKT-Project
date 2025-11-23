@@ -21,6 +21,8 @@ public class LogicScript : MonoBehaviour
 
     public void restartGame()
     {
+        // Restart må alltid slå på tiden igjen
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
@@ -28,6 +30,10 @@ public class LogicScript : MonoBehaviour
     {
         isGameOver = true;
         gameOverScreen.SetActive(true);
+
+        // ❗ Dette fryser hele spillet (men ikke UI)
+        Time.timeScale = 0f;
+
         Debug.Log("Game Over!");
     }
 }

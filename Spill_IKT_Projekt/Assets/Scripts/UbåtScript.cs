@@ -4,16 +4,19 @@ public class UbåtScript : MonoBehaviour
 {
     public LogicScript logic;
     public bool ubåtIsAlive = true;
+
     public Rigidbody2D myRigidbody;
     public float oppKraft = 7f;
     public float maksOppHastighet = 8f;
 
     [Header("Skyting")]
-    public GameObject torpedoPrefab;      // Prefab du laget
-    public Transform firePoint;           // Tomt objekt foran ubåten
-    public KeyCode shootKey = KeyCode.LeftControl; // Bytt tast om du vil
-    public float shootCooldown = 0.5f;    // Hvor ofte man kan skyte
+    public GameObject torpedoPrefab;
+    public Transform firePoint;
+    public float shootCooldown = 0.5f;
     private float shootTimer = 0f;
+
+    [Header("Animation")]
+    public Animator myAnimator;    // dra inn animatoren til ubåten her
 
     void Start()
     {
@@ -22,6 +25,7 @@ public class UbåtScript : MonoBehaviour
 
     void Update()
     {
+        // Stopp all input hvis ubåten er død
         if (!ubåtIsAlive) return;
 
         // 🫧 Flyt opp med SPACE
@@ -33,15 +37,14 @@ public class UbåtScript : MonoBehaviour
             }
         }
 
-        // 🔫 Skyte med LeftControl (eller annen tast)
+        // 🔫 Skyte med venstre musetast
         shootTimer += Time.deltaTime;
 
         if (Input.GetMouseButtonDown(0) && shootTimer >= shootCooldown)
-{
-    ShootTorpedo();
-    shootTimer = 0f;
-}
-
+        {
+            ShootTorpedo();
+            shootTimer = 0f;
+        }
     }
 
     void ShootTorpedo()
@@ -51,8 +54,20 @@ public class UbåtScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        logic.gameOver();
+        if (!ubåtIsAlive) return;
+
         ubåtIsAlive = false;
+
+        // Spill eksplosjonsanimasjon
+        if (myAnimator != null)
+        {
+            myAnimator.SetTrigger("Explode");
+        }
+
+        // Stopp all bevegelse umiddelbart
+        myRigidbody.linearVelocity = Vector2.zero;
+
+        // Aktiver Game Over og frys spillet
+        logic.gameOver();
     }
 }
-

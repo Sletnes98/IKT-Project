@@ -2,19 +2,25 @@ using UnityEngine;
 
 public class MineSpawnerScript : MonoBehaviour
 {
-    [Header("Mine Settings")]
-    public GameObject mine;
-    public float spawnRate = 2f;      // tid mellom spawns
+    [Header("Mine Prefabs")]
+    public GameObject mineOriginal;
+    public GameObject mineBlocked;
+
+    [Header("Spawn Settings")]
+    public float spawnRate = 2f;
     private float timer = 0f;
 
     [Header("Spawn Area")]
-    public float minHeight = -2f;     // nederste høyde for spawn
-    public float maxHeight = 2f;      // høyeste høyde for spawn
-    public float xOffset = 12f;       // hvor langt utenfor kamera minene spawner
+    public float minHeight = -2f;
+    public float maxHeight = 2f;
+    public float xOffset = 12f;
+
+    [Range(0f, 1f)]
+    public float blockedChance = 0.2f;  // 20% som standard
 
     void Start()
     {
-        spawnMine();
+        SpawnMine();
     }
 
     void Update()
@@ -22,19 +28,25 @@ public class MineSpawnerScript : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= spawnRate)
         {
-            spawnMine();
+            SpawnMine();
             timer = 0f;
         }
     }
 
-    void spawnMine()
+    void SpawnMine()
     {
-        // Bruker faste verdier i stedet for offset fra spawner-posisjonen
         float randomY = Random.Range(minHeight, maxHeight);
-        float spawnX = transform.position.x + xOffset; // spawner utenfor kamera til høyre
+        float spawnX = transform.position.x + xOffset;
         Vector3 spawnPos = new Vector3(spawnX, randomY, 0);
 
-        Instantiate(mine, spawnPos, Quaternion.identity);
+        // 80% original, 20% blocked
+        if (Random.value < blockedChance)
+        {
+            Instantiate(mineBlocked, spawnPos, Quaternion.identity);
+        }
+        else
+        {
+            Instantiate(mineOriginal, spawnPos, Quaternion.identity);
+        }
     }
 }
- 

@@ -179,6 +179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MineHealth
   explosionPrefab: {fileID: 5618275432160803729, guid: b34bc033a369a4012af244ebda51de6f, type: 3}
   health: 1
+  neighborAbove: {fileID: 6710410119199196157}
+  neighborBelow: {fileID: 6910292059716182754}
 --- !u!1 &1958333138030365449
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,7 +369,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MineHealth
   explosionPrefab: {fileID: 1819119042084439722, guid: f3af45d62c2d84d9e98868205cc01ebc, type: 3}
-  health: 500
+  health: 2
+  neighborAbove: {fileID: 0}
+  neighborBelow: {fileID: 0}
 --- !u!1 &4633448785862351654
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +514,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MineHealth
   explosionPrefab: {fileID: 5618275432160803729, guid: b34bc033a369a4012af244ebda51de6f, type: 3}
   health: 1
+  neighborAbove: {fileID: 4861641785252556066}
+  neighborBelow: {fileID: 4670790832367451761}
 --- !u!1 &4905414910254037726
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +658,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MineHealth
   explosionPrefab: {fileID: 5618275432160803729, guid: b34bc033a369a4012af244ebda51de6f, type: 3}
   health: 1
+  neighborAbove: {fileID: 3245506301598187038}
+  neighborBelow: {fileID: 6710410119199196157}
 --- !u!1 &5228409309717052794
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,6 +802,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MineHealth
   explosionPrefab: {fileID: 5618275432160803729, guid: b34bc033a369a4012af244ebda51de6f, type: 3}
   health: 1
+  neighborAbove: {fileID: 3070941653779611950}
+  neighborBelow: {fileID: 4348428811417599405}
 --- !u!1 &5770653541111906422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,6 +1088,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   explosionPrefab: {fileID: 5618275432160803729, guid: b34bc033a369a4012af244ebda51de6f, type: 3}
   health: 1
+  neighborAbove: {fileID: 3068829103020763757}
+  neighborBelow: {fileID: 3245506301598187038}
 --- !u!1 &7529438810072275716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1278,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MineHealth
   explosionPrefab: {fileID: 2615415296898015099, guid: 493c2560c21e8475c9357d8f6ed66ce4, type: 3}
-  health: 500
+  health: 2
+  neighborAbove: {fileID: 0}
+  neighborBelow: {fileID: 4861641785252556066}
 --- !u!1 &7845640754730766855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,3 +1423,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MineHealth
   explosionPrefab: {fileID: 5618275432160803729, guid: b34bc033a369a4012af244ebda51de6f, type: 3}
   health: 1
+  neighborAbove: {fileID: 4670790832367451761}
+  neighborBelow: {fileID: 3070941653779611950}
