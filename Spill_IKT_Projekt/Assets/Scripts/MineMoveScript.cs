@@ -1,23 +1,28 @@
-using JetBrains.Annotations;
 using UnityEngine;
 
 public class MineMoveScript : MonoBehaviour
 {
-
     public float moveSpeed = 5;
     public float deadZone = -20;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private LogicScript logic;
+
     void Start()
     {
-        
+        // Finn LogicScript i scenen
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
+        // ❄️ Soft freeze: stopp bevegelse når gameOver = true
+        if (logic != null && logic.IsFrozen())
+            return;
 
+        // Flytt minen mot venstre
+        transform.position += Vector3.left * moveSpeed * Time.deltaTime;
+
+        // Fjern minen hvis den går utenfor skjermen
         if (transform.position.x < deadZone)
         {
             Destroy(gameObject);

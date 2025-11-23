@@ -16,7 +16,8 @@ public class UbåtScript : MonoBehaviour
     private float shootTimer = 0f;
 
     [Header("Animation")]
-    public Animator myAnimator;    // dra inn animatoren til ubåten her
+    public Animator myAnimator;              // svømmeanimasjonen
+    public GameObject explosionPrefab;       // eksplosjon (samme som minene)
 
     void Start()
     {
@@ -58,16 +59,34 @@ public class UbåtScript : MonoBehaviour
 
         ubåtIsAlive = false;
 
-        // Spill eksplosjonsanimasjon
+        // Spill eksplosjonsanimasjon (hvis du senere bruker anim)
         if (myAnimator != null)
         {
             myAnimator.SetTrigger("Explode");
         }
 
+        // Spawn eksplosjon som prefab (samme som minene)
+        if (explosionPrefab != null)
+        {
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        }
+
+        // Skru av sprite på ubåten
+        var sr = GetComponent<SpriteRenderer>();
+        if (sr != null) sr.enabled = false;
+
         // Stopp all bevegelse umiddelbart
         myRigidbody.linearVelocity = Vector2.zero;
+        myRigidbody.linearVelocity = Vector2.zero;
 
-        // Aktiver Game Over og frys spillet
+        // ❄️ slå av gravity så ubåten IKKE begynner å synke
+        myRigidbody.gravityScale = 0f;
+
+        // Slå av collider så den ikke kolliderer igjen
+        var col = GetComponent<Collider2D>();
+        if (col != null) col.enabled = false;
+
+        // Aktiver Game Over (soft freeze)
         logic.gameOver();
     }
 }

@@ -12,40 +12,41 @@ public class TorpedoScript : MonoBehaviour
 
     void Update()
     {
+        // ❗ IKKE stopp torpedoen ved game over
+        // Torpedoen skal kunne fortsette å fly
+
         transform.position += Vector3.right * speed * Time.deltaTime;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
-{
-    // 1️⃣ Hvis ikke CircleCollider2D → IGNORER treffet
-    if (!(collision is CircleCollider2D))
-        return;
-
-    // 2️⃣ Hvis objektet har MineHealth → bruk health-systemet
-    MineHealth health = collision.GetComponent<MineHealth>();
-    if (health != null)
     {
-        health.TakeDamage();
-        Destroy(gameObject);
-        return;
+        // Treffer vi ikke CircleCollider → ignorér
+        if (!(collision is CircleCollider2D))
+            return;
+
+        // Hvis objektet har health → bruk det
+        MineHealth health = collision.GetComponent<MineHealth>();
+        if (health != null)
+        {
+            health.TakeDamage();
+            Destroy(gameObject);
+            return;
+        }
+
+        // Top Mine
+        if (collision.CompareTag("TopMine"))
+        {
+            collision.GetComponent<TopMineHit>()?.Explode();
+            Destroy(gameObject);
+            return;
+        }
+
+        // Bottom Mine
+        if (collision.CompareTag("BottomMine"))
+        {
+            collision.GetComponent<BottomMineHit>()?.Explode();
+            Destroy(gameObject);
+            return;
+        }
     }
-
-    // 3️⃣ Ellers: sjekk TopMine og BottomMine
-    if (collision.CompareTag("BottomMine"))
-    {
-        collision.GetComponent<BottomMineHit>()?.Explode();
-        Destroy(gameObject);
-        return;
-    }
-
-    if (collision.CompareTag("TopMine"))
-    {
-        collision.GetComponent<TopMineHit>()?.Explode();
-        Destroy(gameObject);
-        return;
-    }
-
-    // Treffer du andre ting → gjør ingenting
-}
-
 }

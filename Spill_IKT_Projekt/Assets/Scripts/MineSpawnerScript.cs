@@ -16,16 +16,25 @@ public class MineSpawnerScript : MonoBehaviour
     public float xOffset = 12f;
 
     [Range(0f, 1f)]
-    public float blockedChance = 0.2f;  // 20% som standard
+    public float blockedChance = 0.2f;  // 20% sjanse
+
+    private LogicScript logic;
 
     void Start()
     {
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+
         SpawnMine();
     }
 
     void Update()
     {
+        // ❄️ Stopp spawning hvis spillet er over
+        if (logic != null && logic.IsFrozen())
+            return;
+
         timer += Time.deltaTime;
+
         if (timer >= spawnRate)
         {
             SpawnMine();
@@ -39,7 +48,7 @@ public class MineSpawnerScript : MonoBehaviour
         float spawnX = transform.position.x + xOffset;
         Vector3 spawnPos = new Vector3(spawnX, randomY, 0);
 
-        // 80% original, 20% blocked
+        // Vanlige miner vs blokk-miner
         if (Random.value < blockedChance)
         {
             Instantiate(mineBlocked, spawnPos, Quaternion.identity);

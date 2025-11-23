@@ -21,19 +21,22 @@ public class LogicScript : MonoBehaviour
 
     public void restartGame()
     {
-        // Restart må alltid slå på tiden igjen
-        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    
+
     public void gameOver()
     {
         isGameOver = true;
         gameOverScreen.SetActive(true);
-
-        // ❗ Dette fryser hele spillet (men ikke UI)
-        Time.timeScale = 0f;
-
         Debug.Log("Game Over!");
+
+        // Ikke freeze Time.timeScale
+        // Alt annet i spillet stopper fordi scripts sjekker IsFrozen()
+    }
+
+    // 🚫 Brukes av alle scripts (miner, bakgrunn osv) for å stoppe bevegelse
+    public bool IsFrozen()
+    {
+        return isGameOver;
     }
 }
