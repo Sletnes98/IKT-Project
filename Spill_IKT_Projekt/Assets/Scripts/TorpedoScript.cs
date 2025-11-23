@@ -3,44 +3,42 @@ using UnityEngine;
 public class TorpedoScript : MonoBehaviour
 {
     public float speed = 10f;
-    public float lifeTime = 3f; // hvor lenge torpedoen lever før den forsvinner
+    public float lifeTime = 3f;
 
     void Start()
     {
-        // Ødelegg torpedoen etter noen sekunder så den ikke fyller scenen
         Destroy(gameObject, lifeTime);
     }
 
     void Update()
     {
-        // Få torpedoen til å fly fremover
         transform.position += Vector3.right * speed * Time.deltaTime;
     }
 
-   void OnTriggerEnter2D(Collider2D collision)
-{
-    // Få tak i om vi traff en circle collider
-    if (collision is CircleCollider2D)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        // sjekk om det er BottomMine
-        if (collision.transform.CompareTag("BottomMine"))
+        // Først: sjekk om objektet har MineHealth
+        MineHealth health = collision.GetComponent<MineHealth>();
+        if (health != null)
+        {
+            health.TakeDamage(); // mister 1 HP
+            Destroy(gameObject);// torpedoen forsvinner
+            return;
+        }
+
+        // Hvis ikke: sjekk TopMine / BottomMine
+        if (collision.CompareTag("BottomMine"))
         {
             collision.GetComponent<BottomMineHit>()?.Explode();
             Destroy(gameObject);
             return;
         }
 
-        // sjekk om det er TopMine
-        if (collision.transform.CompareTag("TopMine"))
+        if (collision.CompareTag("TopMine"))
         {
             collision.GetComponent<TopMineHit>()?.Explode();
             Destroy(gameObject);
             return;
         }
     }
-
-    // Treffer vi kjeden? Ikke gjør noe!
-}
-
-
 }
