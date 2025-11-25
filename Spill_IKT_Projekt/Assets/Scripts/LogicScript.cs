@@ -6,33 +6,40 @@ public class LogicScript : MonoBehaviour
 {
     public int playerScore;
     public Text scoreText;
+
     public GameObject gameOverScreen;
+    public GameObject playButton;   // ⬅ Play-knappen i Canvas
 
     public bool isGameOver = false;
+    public bool gameStarted = false; // ⬅ Hindrer spillet før du trykker Play
 
-    // Hvor mange ganger farten har økt
     private int lastSpeedLevel = 0;
 
-    // Hvor mye minene øker i fart
     public float mineSpeedIncrease = 2f;
 
     private MineSpawnerScript spawner;
 
     void Start()
-    {
-        // Finn spawner
-        spawner = FindFirstObjectByType<MineSpawnerScript>();
-    }
+{
+    spawner = FindFirstObjectByType<MineSpawnerScript>();
+
+    gameStarted = false;
+    playButton.SetActive(true);
+
+    // 🚤 Skru av fysikken på ubåten i starten
+    Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
+    rb.simulated = false;
+}
+
 
     [ContextMenu("Increase Score")]
     public void addScore(int scoreToAdd = 1)
     {
-        if (isGameOver) return;
+        if (isGameOver || !gameStarted) return;
 
         playerScore += scoreToAdd;
         scoreText.text = playerScore.ToString();
 
-        // Øk fart hver 5 poeng
         int speedLevel = playerScore / 5;
 
         if (speedLevel > lastSpeedLevel)
@@ -44,32 +51,39 @@ public class LogicScript : MonoBehaviour
 
     void IncreaseMineSpeed()
     {
-        // Øk farten for nye miner
+        // Øk haste for nye miner
         if (spawner != null)
-        {
             spawner.currentMineSpeed += mineSpeedIncrease;
-        }
 
-        // Øk farten for ALLE miner i scenen
+        // Øk farten for eksisterende miner
         MineMoveScript[] allMines =
             FindObjectsByType<MineMoveScript>(FindObjectsSortMode.None);
 
         foreach (MineMoveScript mine in allMines)
-        {
             mine.moveSpeed += mineSpeedIncrease;
-        }
 
-        // Øk parallax-farten
+        // Øk farten for parallax
         Parallax[] layers =
             FindObjectsByType<Parallax>(FindObjectsSortMode.None);
 
         foreach (Parallax p in layers)
-        {
             p.IncreaseParallax();
-        }
 
         Debug.Log("Fart økt for miner og parallax!");
     }
+
+    public void StartGame()
+{
+    gameStarted = true;
+    playButton.SetActive(false);
+
+    // 🚤 Slå på fysikk når spillet starter
+    Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
+    rb.simulated = true;
+
+    Debug.Log("GAME STARTED!");
+}
+
 
     public void restartGame()
     {
@@ -83,8 +97,9 @@ public class LogicScript : MonoBehaviour
         Debug.Log("Game Over!");
     }
 
+    // Alt stopper hvis spillet ikke har startet ELLER hvis GameOver
     public bool IsFrozen()
     {
-        return isGameOver;
+        return isGameOver || !gameStarted;
     }
 }
