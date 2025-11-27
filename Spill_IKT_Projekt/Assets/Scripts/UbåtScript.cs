@@ -41,17 +41,28 @@ public class UbåtScript : MonoBehaviour
 
         // 🔫 Skyting
         shootTimer += Time.deltaTime;
+        // Ikke skyte før spillet har startet
+        if (!logic.gameStarted) return;
+
         if (Input.GetMouseButtonDown(0) && shootTimer >= shootCooldown)
         {
             ShootTorpedo();
             shootTimer = 0f;
         }
+
     }
 
     void ShootTorpedo()
-    {
-        Instantiate(torpedoPrefab, firePoint.position, firePoint.rotation);
-    }
+{
+    // 🔊 Spill lyd (forutsatt at AudioSource er på ubåten)
+    var src = GetComponent<AudioSource>();
+    src.pitch = Random.Range(0.9f, 1.1f);
+    src.Play();
+ 
+
+    Instantiate(torpedoPrefab, firePoint.position, firePoint.rotation);
+}
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

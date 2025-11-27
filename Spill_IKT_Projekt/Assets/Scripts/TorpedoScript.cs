@@ -5,6 +5,9 @@ public class TorpedoScript : MonoBehaviour
     public float speed = 10f;
     public float lifeTime = 3f;
 
+    public AudioClip hitSound;   // 🔊 Dra inn lyden her
+    public float soundVolume = 1f;
+
     void Start()
     {
         Destroy(gameObject, lifeTime);
@@ -12,19 +15,21 @@ public class TorpedoScript : MonoBehaviour
 
     void Update()
     {
-        // ❗ IKKE stopp torpedoen ved game over
-        // Torpedoen skal kunne fortsette å fly
-
         transform.position += Vector3.right * speed * Time.deltaTime;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Treffer vi ikke CircleCollider → ignorér
+        // Ignorér alt som ikke er CircleCollider
         if (!(collision is CircleCollider2D))
             return;
 
-        // Hvis objektet har health → bruk det
+        // 🔊 Spill lyd der torpedoen traff
+        if (hitSound != null)
+            AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, soundVolume);
+
+
+        // Treff mine med health
         MineHealth health = collision.GetComponent<MineHealth>();
         if (health != null)
         {
@@ -33,7 +38,7 @@ public class TorpedoScript : MonoBehaviour
             return;
         }
 
-        // Top Mine
+        // Treff Top Mine
         if (collision.CompareTag("TopMine"))
         {
             collision.GetComponent<TopMineHit>()?.Explode();
@@ -41,12 +46,15 @@ public class TorpedoScript : MonoBehaviour
             return;
         }
 
-        // Bottom Mine
+        // Treff Bottom Mine
         if (collision.CompareTag("BottomMine"))
         {
             collision.GetComponent<BottomMineHit>()?.Explode();
             Destroy(gameObject);
             return;
         }
+
+        // Standard sletting hvis noe annet
+        Destroy(gameObject);
     }
 }

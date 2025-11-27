@@ -122,6 +122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   speed: 10
   lifeTime: 1.5
+  hitSound: {fileID: 8300000, guid: fc38065603a214642bdad80a9b5d661b, type: 3}
+  soundVolume: 13.5
 --- !u!1 &8762399316226673326
 GameObject:
   m_ObjectHideFlags: 0
