@@ -8,10 +8,10 @@ public class LogicScript : MonoBehaviour
     public Text scoreText;
 
     public GameObject gameOverScreen;
-    public GameObject playButton;   // ⬅ Play-knappen i Canvas
+    public GameObject playButton;
 
     public bool isGameOver = false;
-    public bool gameStarted = false; // ⬅ Hindrer spillet før du trykker Play
+    public bool gameStarted = false;
 
     private int lastSpeedLevel = 0;
 
@@ -19,18 +19,20 @@ public class LogicScript : MonoBehaviour
 
     private MineSpawnerScript spawner;
 
+    // 🔊 Legg inn poenglyd
+    public AudioSource scoreSound;
+
     void Start()
-{
-    spawner = FindFirstObjectByType<MineSpawnerScript>();
+    {
+        spawner = FindFirstObjectByType<MineSpawnerScript>();
 
-    gameStarted = false;
-    playButton.SetActive(true);
+        gameStarted = false;
+        playButton.SetActive(true);
 
-    // 🚤 Skru av fysikken på ubåten i starten
-    Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
-    rb.simulated = false;
-}
-
+        // 🚤 Skru av fysikken på ubåten i starten
+        Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
+        rb.simulated = false;
+    }
 
     [ContextMenu("Increase Score")]
     public void addScore(int scoreToAdd = 1)
@@ -40,6 +42,11 @@ public class LogicScript : MonoBehaviour
         playerScore += scoreToAdd;
         scoreText.text = playerScore.ToString();
 
+        // 🔊 Spill av poenglyd
+        if (scoreSound != null)
+            scoreSound.Play();
+
+        // Fartøkning hver 5 poeng
         int speedLevel = playerScore / 5;
 
         if (speedLevel > lastSpeedLevel)
@@ -51,18 +58,15 @@ public class LogicScript : MonoBehaviour
 
     void IncreaseMineSpeed()
     {
-        // Øk haste for nye miner
         if (spawner != null)
             spawner.currentMineSpeed += mineSpeedIncrease;
 
-        // Øk farten for eksisterende miner
         MineMoveScript[] allMines =
             FindObjectsByType<MineMoveScript>(FindObjectsSortMode.None);
 
         foreach (MineMoveScript mine in allMines)
             mine.moveSpeed += mineSpeedIncrease;
 
-        // Øk farten for parallax
         Parallax[] layers =
             FindObjectsByType<Parallax>(FindObjectsSortMode.None);
 
@@ -73,17 +77,16 @@ public class LogicScript : MonoBehaviour
     }
 
     public void StartGame()
-{
-    gameStarted = true;
-    playButton.SetActive(false);
+    {
+        gameStarted = true;
+        playButton.SetActive(false);
 
-    // 🚤 Slå på fysikk når spillet starter
-    Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
-    rb.simulated = true;
+        // 🚤 Slå på fysikk når spillet starter
+        Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
+        rb.simulated = true;
 
-    Debug.Log("GAME STARTED!");
-}
-
+        Debug.Log("GAME STARTED!");
+    }
 
     public void restartGame()
     {
@@ -97,7 +100,6 @@ public class LogicScript : MonoBehaviour
         Debug.Log("Game Over!");
     }
 
-    // Alt stopper hvis spillet ikke har startet ELLER hvis GameOver
     public bool IsFrozen()
     {
         return isGameOver || !gameStarted;
