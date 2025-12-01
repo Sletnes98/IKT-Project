@@ -1921,7 +1921,7 @@ MonoBehaviour:
   logic: {fileID: 0}
   "ub\xE5tIsAlive": 1
   myRigidbody: {fileID: 1757345602}
-  oppKraft: 3
+  oppKraft: 40
   maksOppHastighet: 5
   torpedoPrefab: {fileID: 5947207990171479984, guid: b755500ef592f4f5a8b409fae442bb60, type: 3}
   firePoint: {fileID: 1902858774}
