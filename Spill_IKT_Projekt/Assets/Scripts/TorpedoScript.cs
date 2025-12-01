@@ -24,7 +24,7 @@ public class TorpedoScript : MonoBehaviour
         if (!(collision is CircleCollider2D))
             return;
 
-        // 🔊 Spill lyd der torpedoen traff
+        //  Spill lyd der torpedoen traff
         if (hitSound != null)
             AudioSource.PlayClipAtPoint(hitSound, Camera.main.transform.position, soundVolume);
 

@@ -19,7 +19,7 @@ public class LogicScript : MonoBehaviour
 
     private MineSpawnerScript spawner;
 
-    // 🔊 Legg inn poenglyd
+    //  Legg inn poenglyd
     public AudioSource scoreSound;
 
     void Start()
@@ -29,7 +29,7 @@ public class LogicScript : MonoBehaviour
         gameStarted = false;
         playButton.SetActive(true);
 
-        // 🚤 Skru av fysikken på ubåten i starten
+        // Skru av fysikken på ubåten i starten
         Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
         rb.simulated = false;
     }
@@ -42,7 +42,7 @@ public class LogicScript : MonoBehaviour
         playerScore += scoreToAdd;
         scoreText.text = playerScore.ToString();
 
-        // 🔊 Spill av poenglyd
+        //  Spill av poenglyd
         if (scoreSound != null)
             scoreSound.Play();
 
@@ -81,7 +81,7 @@ public class LogicScript : MonoBehaviour
         gameStarted = true;
         playButton.SetActive(false);
 
-        // 🚤 Slå på fysikk når spillet starter
+        // Slå på fysikk når spillet starter
         Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
         rb.simulated = true;
 

@@ -1279,8 +1279,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MineHealth
   explosionPrefab: {fileID: 2615415296898015099, guid: 493c2560c21e8475c9357d8f6ed66ce4, type: 3}
   health: 2
-  neighborAbove: {fileID: 0}
-  neighborBelow: {fileID: 4861641785252556066}
+  neighborAbove: {fileID: 6910292059716182754}
+  neighborBelow: {fileID: 0}
 --- !u!1 &7845640754730766855
 GameObject:
   m_ObjectHideFlags: 0

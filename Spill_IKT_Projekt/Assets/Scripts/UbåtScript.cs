@@ -30,7 +30,7 @@ public class UbåtScript : MonoBehaviour
         // Stopp all input hvis ubåten er død
         if (!ubåtIsAlive) return;
 
-        // 🫧 Flyt opp med SPACE
+        // Flyt opp med SPACE
         if (Input.GetKey(KeyCode.Space))
         {
             if (myRigidbody.linearVelocity.y < maksOppHastighet)
@@ -54,7 +54,6 @@ public class UbåtScript : MonoBehaviour
 
     void ShootTorpedo()
 {
-    // 🔊 Spill lyd (forutsatt at AudioSource er på ubåten)
     var src = GetComponent<AudioSource>();
     src.pitch = Random.Range(0.9f, 1.1f);
     src.Play();
