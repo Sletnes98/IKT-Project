@@ -34,24 +34,31 @@ public class LogicScript : MonoBehaviour
     {
         spawner = FindFirstObjectByType<MineSpawnerScript>();
 
-        // 🎯 Last highscore
+        // 🎯 Last highscore fra PlayerPrefs
         highscore = PlayerPrefs.GetInt("Highscore", 0);
 
         // 🎯 Vis highscore før spillet starter
         if (highscoreTextStart != null)
+        {
             highscoreTextStart.text = "Highscore: " + highscore;
+            highscoreTextStart.gameObject.SetActive(true);
+        }
 
-        // ❄ Spill ikke startet
+        // ❄ Spill ikke startet enda
         gameStarted = false;
         playButton.SetActive(true);
 
-        // 🚤 Skru av fysikk på ubåten i starten
+        // 🚤 Skru av fysikk på ubåten før start
         Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
         rb.simulated = false;
 
-        // Skjul game-over highscore (skal kun vises når man dør)
+        // 📴 Skjul game-over highscore (skal bare vises etter død)
         if (highscoreTextGameOver != null)
             highscoreTextGameOver.gameObject.SetActive(false);
+
+        // Skjul game-over skjermen i starten
+        if (gameOverScreen != null)
+            gameOverScreen.SetActive(false);
     }
 
 
@@ -103,8 +110,6 @@ public class LogicScript : MonoBehaviour
 
         foreach (Parallax p in layers)
             p.IncreaseParallax();
-
-        Debug.Log("Fart økt for miner og parallax!");
     }
 
 
@@ -127,8 +132,6 @@ public class LogicScript : MonoBehaviour
         // 🚤 Slå på fysikk på ubåten
         Rigidbody2D rb = GameObject.FindGameObjectWithTag("Ubåt").GetComponent<Rigidbody2D>();
         rb.simulated = true;
-
-        Debug.Log("GAME STARTED!");
     }
 
 
@@ -138,7 +141,9 @@ public class LogicScript : MonoBehaviour
     public void gameOver()
     {
         isGameOver = true;
-        gameOverScreen.SetActive(true);
+
+        if (gameOverScreen != null)
+            gameOverScreen.SetActive(true);
 
         // 🎯 Oppdater highscore hvis du slo den
         if (playerScore > highscore)
@@ -154,8 +159,6 @@ public class LogicScript : MonoBehaviour
             highscoreTextGameOver.text = "Highscore: " + highscore;
             highscoreTextGameOver.gameObject.SetActive(true);
         }
-
-        Debug.Log("Game Over!");
     }
 
 
@@ -164,7 +167,6 @@ public class LogicScript : MonoBehaviour
     // ----------------------------------------------------------
     public void restartGame()
     {
-        // skjul highscore tekst før reload
         if (highscoreTextGameOver != null)
             highscoreTextGameOver.gameObject.SetActive(false);
 
